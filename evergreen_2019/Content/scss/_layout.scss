@@ -53,7 +53,10 @@
    }
 }
 .airplan_bg{
-  
+    width: 80%;
+  @include rwd-max-width(960px){
+    width:100%;
+  }
 }
 .lognin__area{
   max-width: 400px;
