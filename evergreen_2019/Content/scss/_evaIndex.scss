@@ -1,0 +1,32 @@
+﻿.linkWhite{
+  text-decoration: underline;
+  color:#fff;
+  &:hover{
+    color:#fff;
+  }
+}
+.modal-content{
+  border-radius: 20px;;
+}
+.evaTitle{
+  border-bottom:1px solid #e1e0e1;
+  color:#737373;
+  position: relative;
+  padding: 20px 0px 10px;
+  font-size: 20px;
+}
+.close-x{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right:15px;
+  top:15px;
+}
+
+@media (min-width: 576px) {
+
+.modal-dialog {
+  max-width: 860px;
+  margin: 1.75rem auto;
+}
+}

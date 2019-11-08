@@ -20,12 +20,13 @@
 	<!--	Common CSS file /begin -->
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<link rel="stylesheet" href="./Content/js/jquery.fancyform/jquery.fancyform.css" />
+	<link rel="stylesheet" href="Content/css/bootstrap.min.css">
 	<link rel="stylesheet" href="Content/css/evaGreen.css">
 </head>
 
 <body>
 
-	<div class="container">
+	<div class="evaGreenContainer">
 		<div class="back_b"> </div>
 		<header id="top_banner">
 			<div class="headerContent">
@@ -41,7 +42,7 @@
 						</div>
 						<div class="menu">
 							<a href="#"> 活動登入 </a>
-							<a href="#"> 注意事項 </a>
+							<a href="javascript:void(0)" data-toggle="modal" data-target="#evaModal"> 注意事項 </a>
 							<a href="#"> 回首頁 </a>
 
 						</div>
@@ -86,8 +87,10 @@
 							</div>
 							<div class="tit_Group mt10">
 								<input id="checkboxagree" type="checkbox" class="checkbox" name="main">
-								<label class="l" for="checkboxagree">本人已完全暸解並同意遵守活動辦法及注意事項</label>
+								<label class="l" for="checkboxagree">本人已完全暸解並同意遵守<a href="javascript:void(0)" data-toggle="modal"
+										data-target="#evaModal" class="linkWhite">活動辦法及注意事項</a></label>
 							</div>
+
 							<div class="actionArea">
 								<a href="#" class="btn">
 									<span>確認</span>
@@ -95,7 +98,7 @@
 							</div>
 
 						</div>
-						<div class="airplan_bg"></div>
+						<div class="airplan_bg"><img src="Content/images/bg_airplan.png" alt="" class="img-responsive"></div>
 					</div>
 				</div>
 
@@ -132,7 +135,36 @@
 			</div>
 
 		</footer>
+		<!-- 彈跳視窗 -->
 
+		<div class="modal fade " id="evaModal" tabindex="-1" role="dialog" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-atm-width " role="document">
+				<div class="modal-content bgTransparent">
+
+					<div class="evaBox" role="dialog">
+						<div class="evaTitle displayFlex">
+							<div>注意事項</div>
+							<span class="closeIcon close-x">
+                                <img src="Content/images/close-icon.png" alt="" class="img-responsive"></span>
+						</div>
+						<div class="evaContent">
+						
+							<div class="displayFlex textCenter emailSend">
+								<img src="" alt="" class="loudspeaker">
+								<p class="">
+									E-mail已經成功寄出
+								</p>
+							</div>
+
+							<button class="normalButton btn btnWidth280 closeIcon">繼續轉帳</button>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- 彈跳視窗end -->
 		<!-- <footer class="footer">
 				<div class="wrap">
 					<div class="footer__warning">
@@ -147,13 +179,16 @@
 	</div>
 	<!-- Common js /begin -->
 	<script src="Content/js/vendor/modernizr-2.7.1.min.js"></script>
-	<script src="Content/js/vendor/jquery-2.1.0.js"></script>
+	<script src="Content/js/vendor/jquery-3_2_1-min.js"></script>
+	<script src="Content/js/vendor/bootstrap.min.js"></script>
 	<script src="Content/js/jquery.fancyform/jquery.fancyform.js"></script>
 	<script src="Content/js/vendor/jquery.validate.js"></script>
-	<script src="Content/js/fancybox-3.0/jquery.fancybox.js"></script>
 	<!-- Common js /end -->
 	<!-- Page js /begin -->
 	<script>
+		$(function(){
+
+		
 		$("#toggle").on("click", function () {
 			$(".line").toggleClass("on");
 			$(".menu").toggleClass('active');
@@ -168,6 +203,11 @@
 			addDropdownToBody: true,
 			showFirstItemInDrop: false
 		});
+			// // atm彈跳視窗
+			$('.closeIcon').click(function () {
+			$('.modal').modal('hide');
+			})
+			})
 	</script>
 
 </body>

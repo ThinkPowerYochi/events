@@ -13,7 +13,7 @@
   width: 100%;
   margin: auto;
 }
-.container{
+.evaGreenContainer{
   width: 100%;
   min-height:100vh;
   background:url(../images/bg_cover.jpg) #aacadf;
@@ -21,6 +21,7 @@
   background-repeat: no-repeat ;
   background-size: cover;
   background-attachment: fixed;
+  display: inline-block;
 }
 .header {
   text-align:center; 
@@ -39,20 +40,23 @@
    padding-top:150px;
    min-height:780px;
    position: relative; 
+   width: 100%;
+   display: inline-block;
+   @include rwd-max-width(960px){
+     padding-top:30px;
+   }
 }
 .airplan_bg{
-  position: absolute;
-  top:100px;
-  right:0px;
-  width:760px;
-  height:182px;
-  background:url(../images/bg_airplan.png);
-  background-size:760px 182px;    
+  margin-top:-50px;
 }
 .lognin__area{
-  width: 400px;
+  max-width: 400px;
   text-align:center;
   position:relative;  
+     @include rwd-max-width(960px) {
+        max-width: 100%;
+        padding: 20px;
+     }
 
   .airplan{
     width:116px;
@@ -187,7 +191,7 @@
 .cloud_in{
   width:100%;
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   overflow:hidden;
   height:200px;
   #cloud-scroll {
@@ -273,7 +277,6 @@ footer{
  background-size: 100%;
  .des{
   padding: 15px 25px 0;
-  height: 90px;
   position: relative;
   .b{
     @include font(20px,24px,#666666);
@@ -284,10 +287,9 @@ footer{
     @include r;
   }
   p{
-    width: 820px;
-    position: absolute;
+    
     float: left;
-    left: 140px;
+    max-width: 100%;
     font-size: 14px;
     line-height: 20px;
     font-weight: normal;
@@ -324,6 +326,16 @@ footer{
 
   .mobileShow {
     display: initial;
+  }
+  footer {
+    .des {
+      .b {
+      }
+      p {
+        padding: 0px;
+        margin-bottom: 10px;;
+      }
+    }
   }
 }
 @media screen and (max-width: 400px) {

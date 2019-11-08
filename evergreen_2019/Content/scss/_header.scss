@@ -1,138 +1,268 @@
 @charset "UTF-8";
 
-blockquote,
+html,
 body,
-dd,
 div,
-dl,
-dt,
-fieldset,
-form,
+span,
+applet,
+object,
+iframe,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-input,
-li,
-ol,
 p,
+blockquote,
 pre,
-td,
-textarea,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
 th,
-ul {
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-  padding: 0
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 16px;
+  line-height: initial;
+  font-family: 'Microsoft JhengHei', "Font Awesome 5 Free";
+
+}
+
+input {
+  vertical-align: baseline;
+  font-size: 16px;
+  font-family: 'Microsoft JhengHei',
+    "Font Awesome 5 Free";
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0
-}
-
-fieldset,
-img {
-  border: 0
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-  font-style: normal;
-  font-weight: normal
-}
-
-ol,
-ul {
-  list-style: none
-}
-
-caption,
-th {
-  text-align: left
-}
-
-q:after,
-q:before {
-  content: ''
-}
-
-abbr,
-acronym {
-  border: 0
-}
-
-body,
-html {
-  height: 100%
-}
-
-input {
-  background: transparent;
-  border: none
-}
-
-input:focus,
-input:focus {
-  outline: none !important
-}
-
-body {
+  border-spacing: 0;
   background: #fff;
-  font-family: '微軟正黑體';
-  font-size: 12px
 }
 
 a {
-  outline: none;
-  hlbr: expression(this.onFocus=this.blur());
-  text-decoration: none
+  text-decoration: none;
 }
 
-.clear {
-  clear: both
+a:focus,
+a:hover {
+  text-decoration: none;
 }
 
-img {
-  vertical-align: top
-}
+.footer .f-recommandLink a {
 
-html {
-  -webkit-text-size-adjust: 100%
-}
-
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box
-}
-
-@media screen and (max-width:960px) {
-  .back_b {
-    background: rgba(0, 0, 0, 0.75);
-    display: none;
-    height: 100%;
-    left: 0px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 98
+  &:hover {
+    color: #fff437;
   }
-
-  .back_b.on {
-    display: block
-  }
-
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
+//字級大小
+.h1,
+h1 {
+  font-size: 2.25rem
+}
+
+.h2,
+h2 {
+  font-size: 1.5rem
+}
+
+.h3,
+h3 {
+  font-size: 1.25rem
+}
+
+.h4,
+h4 {
+  font-size: 1.125rem
+}
+
+.h5,
+h5 {
+  font-size: 1rem
+}
+
+.h6,
+h6 {
+  font-size: 0.825rem
+}
+
+//hidden
+.hidden {
+  display: none;
+}
+
+//text weight
+.fontBold {
+  font-weight: bold;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+// position relative
+.p_relative {
+  position: relative;
+}
+
+// flexbox
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexSpaceAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flexStartJustify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flexEndJustify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexStartAlign {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-basis: auto;
+}
 
 
 a:hover {
@@ -179,8 +309,8 @@ header .headerContent {
   top: 0;
   bottom: 0;
   margin: 0;
-  background-image: url(../images/header_bg.png);
-  background-repeat: repeat-x
+  background-repeat: repeat-x;
+  padding: 0px 50px;
 }
 
 header .headerContent .logo {
@@ -211,7 +341,7 @@ header .headerContent .menu {
   top: 22px;
   right: 0px;
   margin-right: 0;
-  margin-top: 0
+  margin-top: 0;
 }
 
 header .headerContent .menu a {
@@ -219,11 +349,12 @@ header .headerContent .menu a {
   line-height: 30px;
   font-weight: 600;
   font-family: "微軟正黑體";
-  color: #00a94f;
+  color: #fff;
   height: 30px;
   float: left;
   width: 120px;
-  text-align: center
+  text-align: center;
+
 }
 
 header .headerContent .menu a.img_home {
@@ -287,7 +418,12 @@ article.footer_top {
   right: 0;
   top: 0;
   bottom: 0;
-  margin: 0
+  margin: 0;
+    padding:0px 50px;
+    @include rwd-max-width(768px){
+      padding:0px;
+    }
+  
 }
 
 article.footer_top .copyright {
@@ -300,7 +436,8 @@ article.footer_top .copyright {
   top: 0;
   bottom: 0;
   margin: 0;
-  padding: 25px 0 10px
+  padding: 25px 0 10px;
+
 }
 
 article.footer_top .copyright .menu {
@@ -416,7 +553,6 @@ footer .des {
 }
 
 footer .des p {
-  width: 820px;
   position: absolute;
   float: left;
   left: 100px;
@@ -426,7 +562,7 @@ footer .des p {
   font-family: "微軟正黑體";
   color: #666666;
   text-align: left;
-  padding-top: 5px
+  padding: 5px 20px 0px ;
 }
 
 footer .des p.b {
@@ -574,24 +710,25 @@ footer .des2 .copyright .text a {
     top: 0;
     bottom: 0;
     margin: 0;
-    background-image: url(../images/header_bg960.png);
-    background-repeat: repeat-x
+    background-repeat: repeat-x;
+    padding:0px;
+      background-color: rgba(51, 51, 51, .3);
   }
 
   header .headerContent .logo {
     position: absolute;
     width: 200px;
-    height: 28px;
-    top: 0;
+    height: 50px;
+    top: 10px;
     left: 0;
+
     margin-left: 0;
     margin-top: 0;
-    background: url(../images/logo-cathaybk-01.svg);
-    margin-top: 20px;
+    background: url(../images/logo--mobile.png);
     left: 50%;
     margin-left: -100px;
     background-repeat: no-repeat;
-    background-size: 200px 29px;
+
     z-index: 1
   }
 
@@ -608,7 +745,7 @@ footer .des2 .copyright .text a {
   header .headerContent #toggle .line {
     width: 100%;
     height: 4px;
-    background: #00a84f;
+    background: #fff;
     margin: 5px auto;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -810,7 +947,21 @@ footer .des2 .copyright .text a {
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:960px) {
+    .back_b {
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      height: 100%;
+      left: 0px;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      z-index: 100
+    }
+
+    .back_b.on {
+      display: block
+    }
   header {
     position: relative;
     width: 100%;
@@ -820,7 +971,8 @@ footer .des2 .copyright .text a {
     right: 0;
     top: 0;
     bottom: 0;
-    margin: 0
+    margin: 0;
+    z-index: 200;
   }
 
   header .headerContent {
@@ -833,8 +985,8 @@ footer .des2 .copyright .text a {
     top: 0;
     bottom: 0;
     margin: 0;
-    background-image: url(../images/header_bg640.png);
-    background-repeat: repeat-x
+    background-repeat: repeat-x;
+    padding: 0px;
   }
 
   header .headerContent #toggle {
@@ -850,7 +1002,7 @@ footer .des2 .copyright .text a {
   header .headerContent #toggle .line {
     width: 100%;
     height: 3px;
-    background: #00a84f;
+    background: #fff;
     margin: 5px auto;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -876,7 +1028,8 @@ footer .des2 .copyright .text a {
   }
 
   header .headerContent .menu {
-    margin-top: -26px
+    margin-top: -26px;
+    width: 320px;
   }
 
   header .headerContent .menu a {
@@ -895,7 +1048,8 @@ footer .des2 .copyright .text a {
     top: 0;
     bottom: 0;
     margin: 0;
-    margin: 0px 0 0px
+    margin: 0px 0 0px;
+    border-bottom:1px solid #eee;
   }
 
   header .headerContent .menu a:hover {
@@ -937,18 +1091,17 @@ footer .des2 .copyright .text a {
 
   header .headerContent .logo {
     position: absolute;
-    width: 136px;
-    height: 19px;
+    width: 180px;
+    height: 40px;
     top: 0;
     left: 0;
     margin-left: 0;
     margin-top: 0;
-    background: url(../images/logo-cathaybk-01.svg);
-    margin-top: 12px;
+    background: url(../images/logo--mobile.png);
     left: 50%;
     margin-left: -68px;
     background-repeat: no-repeat;
-    background-size: 136px 20px;
+    background-size: 180px 40px;
     z-index: 1
   }
 
