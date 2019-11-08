@@ -153,40 +153,7 @@
       }
     } 
   }
-  .actionArea {
-      float: left;
-      width: 100%;
-      text-align: center;
-      margin:20px 0;
-      a{
-        margin: 0 10px;
-        text-decoration:none;
-        &.btn{
-          display: inline-block;
-          padding: 15px 0;
-          width:280px;
-          text-align: center;
-          border-radius: 32px;
-          text-align: center;
-          font-weight: bold;
-          font-size:18px;
-          color: #fff;
-          margin: 0 10px;
-          text-align: center;
-          transition:#ff6000 350ms ease-in-out;
-          position: relative;
-          background: #ff6000;
-          opacity: 0.8;
-        }
-        > span{
-          color:#fff;
-        }
-        &:hover{
-          background: #ff6000;
-          opacity:1;
-        }
-      } 
-    }
+
 }
 .cloud_in{
   width:100%;
@@ -205,6 +172,44 @@
     animation: 1000000s backgroundScroll infinite linear;
   } 
 }
+  .actionArea {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+
+      &.btn {
+        display: inline-block;
+        padding: 15px 0;
+        width: 280px;
+        text-align: center;
+        border-radius: 32px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: #fff;
+        margin: 0 10px;
+        text-align: center;
+        transition: #ff6000 350ms ease-in-out;
+        position: relative;
+        background: #ff6000;
+        opacity: 0.8;
+      }
+
+      >span {
+        color: #fff;
+      }
+
+      &:hover {
+        background: #ff6000;
+        opacity: 1;
+      }
+    }
+  }
 .footer_top{
   @include r;
   background:#fff; 
