@@ -1,0 +1,450 @@
+@charset "UTF-8";
+@mixin r($wt:100%,$ht:auto){
+  position:relative;
+  width:$wt;
+  height: $ht;  
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  @content;
+}
+@mixin am($wt:100%,$ht:100%,$left:50%,$top:50%){
+  position:absolute;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  left:$left;
+  transform:translate(-50%,-50%);
+  @content;
+}
+@mixin alt($wt:100%,$ht:100%,$left:0,$top:0,$mleft:0,$mtop:0){
+  position:absolute;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  left:$left;
+  margin-left:$mleft;
+  margin-top: $mtop; 
+  @content;
+}
+@mixin art($wt:100%,$ht:100%,$right:0,$top:0,$mright:0,$mtop:0){
+  position:absolute;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  right:$right;
+  margin-right:$mright;
+  margin-top: $mtop; 
+  @content;
+}
+@mixin alb($wt:100%,$ht:100%,$left:0,$bottom:0,$mleft:0,$mbottom:0){
+  position:absolute;
+  width:$wt;
+  height: $ht;  
+  bottom: $bottom;
+  left:$left;
+  margin-left:$mleft;
+  margin-bottom: $mbottom; 
+  @content;
+}
+@mixin arb($wt:100%,$ht:100%,$right:0,$bottom:0,$mright:0,$mbottom:0){
+  position:absolute;
+  width:$wt;
+  height: $ht;  
+  bottom: $bottom;
+  right:$right;
+  margin-right:$mright;
+  margin-bottom: $mbottom; 
+  @content;
+}
+@mixin fm($wt:100%,$ht:100%,$left:50%,$top:50%){
+  position:fixed;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  left:$left;
+  transform:translate(-50%,-50%);
+  @content;
+}
+@mixin flt($wt:100%,$ht:100%,$left:0,$top:0,$mleft:0,$mtop:0){
+  position:fixed;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  left:$left;
+  margin-left:$mleft;
+  margin-top: $mtop; 
+  @content;
+}
+@mixin frt($wt:100%,$ht:100%,$right:0,$top:0,$mright:0,$mtop:0){
+  position:fixed;
+  width:$wt;
+  height: $ht;  
+  top: $top;
+  right:$right;
+  margin-right:$mright;
+  margin-top: $mtop; 
+  @content;
+}
+@mixin flb($wt:100%,$ht:100%,$left:0,$bottom:0,$mleft:0,$mbottom:0){
+  position:fixed;
+  width:$wt;
+  height: $ht;  
+  bottom: $bottom;
+  left:$left;
+  margin-left:$mleft;
+  margin-bottom: $mbottom; 
+  @content;
+}
+@mixin frb($wt:100%,$ht:100%,$right:0,$bottom:0,$mright:0,$mbottom:0){
+  position:fixed;
+  width:$wt;
+  height: $ht;  
+  bottom: $bottom;
+  right:$right;
+  margin-right:$mright;
+  margin-bottom: $mbottom; 
+  @content;
+}
+@mixin font($fs:15px,$lh:27px,$co:#FFF,$fw:normal,$ff:"微軟正黑體"){
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  font-family: $ff;
+  color: $co;
+  @content;
+}
+@mixin fontvw($fs:15,$lh:27,$co:#FFF,$fw:normal,$ff:"微軟正黑體"){
+  font-size: getVW($fs);
+  line-height: getVW($lh);
+  font-weight: $fw;
+  font-family: $ff;
+  color: $co;
+  @content;
+}
+@mixin amvw($wt:100%,$ht:100%,$left:50%,$top:50%){
+  position:absolute;
+  width:getVW($wt);
+  height: getVW($ht);  
+  top: $top;
+  left:$left;
+  transform:translate(-50%,-50%);
+  @content;
+}
+@mixin altvw($wt:100%,$ht:100%,$left:0,$top:0,$mleft:0,$mtop:0){
+  position:absolute;
+  width:getVW($wt);
+  height: getVW($ht);  
+  top: getVW($top);
+  left:getVW($left);
+  margin-left:getVW($mleft);
+  margin-top: getVW($mtop); 
+  @content;
+}
+@mixin artvw($wt:100%,$ht:100%,$right:0,$top:0,$mright:0,$mtop:0){
+  position:absolute;
+  width:getVW($wt);
+  height: getVW($ht);
+  top: getVW($top);
+  right:getVW($right);
+  margin-right:getVW($mright);
+  margin-top: getVW($mtop);
+  @content;
+}
+@mixin albvw($wt:100%,$ht:100%,$left:0,$bottom:0,$mleft:0,$mbottom:0){
+  position:absolute;
+  width:getVW($wt);
+  height: getVW($ht);
+  bottom: getVW($bottom);
+  left:getVW($left);
+  margin-left:getVW($mleft);
+  margin-bottom: getVW($mbottom);
+  @content;
+}
+@mixin arbvw($wt:100%,$ht:100%,$right:0,$bottom:0,$mright:0,$mbottom:0){
+  position:absolute;
+  width:getVW($wt);
+  height: getVW($ht);  
+  bottom: getVW($bottom);
+  right:getVW($right);
+  margin-right:getVW($mright);
+  margin-bottom: getVW($mbottom); 
+  @content;
+}
+@mixin fmvw($wt:100%,$ht:100%,$left:50%,$top:50%){
+  position:fixed;
+  width:getVW($wt);
+  height: getVW($ht);
+  top: $top;
+  left:$left;
+  transform:translate(-50%,-50%);
+  @content;
+}
+@mixin fltvw($wt:100%,$ht:100%,$left:0,$top:0,$mleft:0,$mtop:0){
+  position:fixed;
+  width:getVW($wt);
+  height: getVW($ht);
+  top: getVW($top);
+  left:getVW($left);
+  margin-left:getVW($mleft);
+  margin-top: getVW($mtop);
+  @content;
+}
+@mixin frtvw($wt:100%,$ht:100%,$right:0,$top:0,$mright:0,$mtop:0){
+  position:fixed;
+  width:getVW($wt);
+  height: getVW($ht);
+  top: getVW($top);
+  right:getVW($right);
+  margin-right:getVW($mright);
+  margin-top: getVW($mtop);
+  @content;
+}
+@mixin flbvw($wt:100%,$ht:100%,$left:0,$bottom:0,$mleft:0,$mbottom:0){
+  position:fixed;
+  width:getVW($wt);
+  height: getVW($ht);
+  bottom: getVW($bottom);
+  left:getVW($left);
+  margin-left:getVW($mleft);
+  margin-bottom: getVW($mbottom);
+  @content;
+}
+@mixin frbvw($wt:100%,$ht:100%,$right:0,$bottom:0,$mright:0,$mbottom:0){
+  position:fixed;
+  width:getVW($wt);
+  height: getVW($ht);
+  bottom: getVW($bottom);
+  right:getVW($right);
+  margin-right:getVW($mright);
+  margin-bottom: getVW($mbottom);
+  @content;
+}
+@mixin rvw($wt:100%,$ht:auto){
+  position:relative;
+  width:getVW($wt);
+  height: getVW($ht);
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  @content;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@function getVW($aa) {
+  @return ($aa / 1334) * 100vw;
+}
+@function getVWI($aa) {
+  @return ($aa / 1920) * 100vw;
+}
+@function getVH($aa) {
+  @return ($aa / 750) * 100vh;
+}
+@function getVHI($aa) {
+  @return ($aa / 1080) * 100vh;
+}
+@function count_point_l($aa) {
+  @return ($aa / 10440) * 100%;
+}
+@function count_point_t($aa) {
+  @return ($aa / 2088) * 100%;
+}
+@mixin vh() {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 0px;
+    display:none; 
+}
+@keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position:99999999px 0;
+  }
+}
+$inputHeight:30px;
+$inputWidth:30px;
+$inputBorderWidth:1px;
+$inputActiveScale:15px;
+$maincolor:#00994f;
+
+%main_font{
+  font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+  color:#fff;
+  margin:0;
+  padding:0;  
+}
+body{
+  font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;   
+}
+input[type="text"]{
+  font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+}
+select{
+  opacity:0;
+}
+.inputGroup__control--three:before, .inputGroup__control--three:after {
+  content: "";
+  display: table;
+}
+.transformSelect li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  float: left;
+  display: block;
+}
+.transformSelect {
+  clear: none;
+}
+.transformSelect:before, .transformSelect:after {
+  content: "";
+  display: table;
+}
+.transformSelect:after {
+  clear: both;
+}
+.transformSelect span {
+  padding-right: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 9px 15px;
+  border-radius: 3px;
+}
+.transformSelect li.open span {
+  border: 1px solid #00994e;
+}
+.transformSelect.disabled > li > span {
+  cursor: default;
+  background-size: 25px 22px;
+  background-color: #eaeaea;
+  color: #b1b1b1;
+}
+
+.transformSelectDropdown {
+  border: 1px solid #00994e;
+  border-top: none;
+  background: #ffffff;
+  padding: 0;
+  max-height:200px;
+  overflow: auto;
+}
+.transformSelectDropdown li {
+  list-style: none;
+}
+.transformSelectDropdown li.selected span {
+  background: #00994e;
+  color: #fff;
+}
+.transformSelectDropdown span {
+  padding: 14px 15px;
+  cursor: pointer;
+  display: block;
+}
+.transformSelectDropdown span:hover {
+  background: #00994e;
+  color: #fff;
+}
+input[type="checkbox"].checkbox,input[type="radio"].radio {
+  @include vh();
+  &:focus,
+  &:hover {
+        + label {
+            &:before {
+                border:1px solid #cccccc;
+            }
+        }
+    }
+  &:active {
+    + label {
+            &:before {
+                transition-duration: 0;
+            }
+        }
+  }
+    + label {
+        position: relative;
+        padding-left:40px;
+        user-select: none;
+        width: 100%;
+        float:left;
+        display:block;
+        &:before {
+            box-sizing: content-box;
+            content: '';
+            color: #cccccc;
+            position: absolute;
+            background:#fff; 
+            top:13px;
+            left: 0;
+            width: $inputWidth;
+            height: $inputHeight;
+            margin-top: -($inputHeight/2 + $inputBorderWidth);
+            border: $inputBorderWidth solid #cccccc;
+            text-align: center;
+            border-radius:3px;
+        }
+        &:after {
+            box-sizing: content-box;
+            content: '';
+            background:$maincolor;
+            position: absolute;
+            top:13px;
+            left: $inputBorderWidth + $inputActiveScale/2;
+            width: $inputWidth - $inputActiveScale;
+            height: $inputHeight -$inputActiveScale;
+            margin-top: -(($inputHeight - $inputActiveScale)/2);
+            transform: scale(0);
+            transform-origin: 50%;
+            transition: transform 200ms ease-out;
+        }
+    }
+  }
+input[type="checkbox"].checkbox{
+	+ label {
+       cursor: pointer;
+			&:after {
+        background:none;
+				left: 8px;
+				width: 15px;
+				height: 8px;
+        margin-top: -8px;
+				border-style:solid;
+				border-color:#fff;
+				border-width: 0 0 2px 2px;
+        transform: rotate(-45deg) scale(0);
+        transition: transform 200ms ease-out;
+			}
+	}
+	&:checked {
+		+ label {
+			&:before {
+        animation: borderscale 200ms ease-in;
+        background:$maincolor;
+        border: 1px solid $maincolor;
+			}
+			&:after {
+				content:'';
+        transform: rotate(-45deg) scale(1);
+        transition: transform 200ms ease-out;
+			}
+		}
+	}
+}

@@ -1,0 +1,219 @@
+﻿
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>MyBill輕鬆繳－國泰世華銀行</title>
+    <meta name='description' content='MyBill輕鬆繳提供您線上繳費服務，免登入免註冊，持任一銀行信用卡或活期帳戶，即可線上繳款各家銀行信用卡費、水電瓦斯電信費、停車費、eTag…等。' />
+    <meta name='keywords' content='線上繳費,國泰世華,繳費,活期帳戶繳費,信用卡繳費' />
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="400" />
+	<!--<meta name="format-detection" content="telephone=no" />-->
+	<meta http-equiv="cleartype" content="on" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, user-scalable=0" />
+	<!--	Common CSS file /begin -->
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="stylesheet" href="./Content/js/jquery.fancyform/jquery.fancyform.css" />
+	<link rel="stylesheet" href="./Content/js/bootstrap/bootstrap-datepicker3.standalone.css" />
+	<link rel="stylesheet" href="./Content/js/fancybox-3.0/jquery.fancybox.css" />
+	<link rel="stylesheet" href="./Content/css/normalize.css" />
+	<link rel="stylesheet" href="./Content/css/layout.css" />
+	<link rel="stylesheet" href="./Content/css/main.css" />
+	<!-- Common CSS file /end -->
+	<!-- Page CSS file /begin -->
+	
+	<link href="./Content/js/bxslider-4-master/jquery.bxslider.css" rel="stylesheet" />
+	<!-- Page CSS file /end -->
+	<script src="./Content/js/viewport.js"></script>
+	<script src="./Content/js/vendor/modernizr-2.7.1.min.js"></script>
+
+
+</head>
+<body>
+	<!--<div class="loadingElement">
+		<span>LOADING</span>
+		<div class="loadingBall">
+		</div>
+	</div>-->
+	<div class="container">
+		<header class="header clearfix">
+            <a href="javascript:void(0)" class="header__goback" onclick="window.history.back();"></a>
+			<a href="./index.html" class="header__logo"></a>
+			<div class="header__title">
+					大樓管理費
+			</div>
+		</header>
+		<section class="main">
+            <section>
+                <div class="wrap">
+                    <div class="progressBar"></div>
+                </div>
+            </section>
+			<section class="section" data-id="minHeight">
+				<div class="wrap">
+                    <form action="#" method="get" id="form">
+                        <div class="wrap">
+                            <div class="form form--nopadding">
+                                <div class="form__section">
+                                    <div class="inputGroup">
+                                        <label class="inputGroup__label"> 查詢方式</label>
+                                        <div class="inputGroup__control">
+                                            <div class="fancyRadio">
+                                                <input type="radio" value="" class="fancyRadio__input" name="vehicleType" id="Contributor" checked />
+                                                <label class="fancyRadio__label" for="Contributor">繳款人代(學)號</label>
+                                                <input type="radio" value="" class="fancyRadio__input" name="vehicleType" id="Payment" />
+                                                <label class="fancyRadio__label" for="Payment">繳款單銷帳編號</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inputGroup">
+                                        <label class="inputGroup__label" for="number">繳款人代(學)號</label>
+                                        <div class="inputGroup__control">
+                                              <input type="text" value="" id="number" required />
+                                        </div>
+                                    </div>
+                                    <div class="inputGroup inputGroup--captcha">
+                                            <label class="inputGroup__label" for="txtVerification">請輸入驗證碼</label>
+                                            <div class="inputGroup__control inputGroup__control--captcha">
+                                                <div class="tableDiv">
+                                                    <div>
+                                                        <input type="text" value="" id="txtVerification" required="">
+                                                    </div>
+                                                    <div>
+                                                        <img src="./Content/images/img-validate.jpg" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <a href="javascript:void(0)" class="icon iRefreshCaptcha"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__notice form__noticei">
+                                    您按下送出時，於上列所填寫的資料將會送予國泰世華銀行。本行將保護您個人資料安全且於法令許可及個人資料保護法告知內容之範圍內，在國內外蒐集、處理、利用您的個人資料。若您同意前述聲明且已詳閱 <a href="javascript:void (0)" class="link" data-fancybox="" data-src="#law">「 個人資料保護法告知內容 」</a>，請按送出。
+                            </div>
+                            <div class="actionArea clearfix">
+                                <a href="print_step1_1.html" class="btn" data-id="submit">
+                                    <span>查詢帳單</span>
+                                </a>
+                            </div>
+                            <div class="actionArea">
+                                <a href="index.html" class="link_gf20" onclick="window.history.back();">
+                                    <span>返回</span>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+				</div>
+            </section>
+            
+            <div id="law" class="popup">
+                    <div class="popup__head">
+                        <div class="popup__title">個人資料保護法告知內容</div>
+                    </div>
+                    <div class="popup__container">
+                        <article>
+                            <p>
+                                親愛的客戶，您好！當您使用本行MyBill輕鬆繳線上繳費時，本行蒐集、處理、利用及國際傳輸您的個人資料，都是在以下所列舉的範圍內，本行謹依據個人資料保護法（以下稱個資法）第八條的規定，逐一向您告知各項內容，請您務必詳閱，以確保您的權利(以下有關蒐集目的所列代號及項目係參照法務部公告之「個人資料保護法之特定目的及個人資料之類別」所為分類，該等代號及項目名稱變更時，隨同變更不另公告)：
+                            </p>
+                            <ul class="list_decimal">
+                                <li>蒐集的目的：「067信用卡、現金卡、轉帳卡或電子票證業務」、「001人身保險」、「030仲裁」、「036存款與匯款」(自動授扣、匯款與轉帳交付)、「040行銷(包含金控共同行銷業務)」、「044投資管理」、「059金融服務業依法令規定及金融監理需要，所為之蒐集處理及利用」、「060金融爭議處理」、「061金融監督、管理與檢查」、「063非公務機關依法定義務所進行個人資料之蒐集處理及利用」、「069契約、類似契約或其他法律關係事務」、「088核貸與授信業務」(預借現金、代償、信貸及長期循環轉換貸款業務)、「090消費者、客戶管理與服務」、「091消費者保護」、「098商業與技術資訊」、「104帳務管理及債權交易業務」、「113陳情、請願、檢舉案件處理」、「129會計與相關服務」、「135資(通)訊服務」、「136資(通)訊與資料庫管理」、「137資通安全與管理」、「148網路購物及其他電子商務服務」、「154徵信」、「160憑證業務管理(含OTP動態密碼及MyB2B智慧印鑑)」、「157調查、統計與研究分析」、「177其他金融管理業務」、「181其他經營合於營業登記項目或組織章程所定之業務」(含法令規定或經主管機關核可之業務) 及「182其他諮詢與顧問服務」。
+                                </li>
+                                <li>蒐集之個人資料類別：本行將蒐集您的個人資料會包括您的姓名、身分證統一編號、聯絡方式、及您所提供的一切資料等。
+                                </li>
+                                <li>個人資料利用之期間、地區、對象及方式：
+                                <ul class="list_disc">
+                                    <li>期間：個人資料蒐集之特定目的存續期間/依相關法令規定或契約約定之保存年限（如：商業會計法等）/本行因執行業務所必須之保存期間。</li>
+                                    <li>地區：本國、本行海外分支機構所在地、通匯行所在地、未受中央目的事業主管機關限制之國際傳輸個人資料之接收者所在地、本行業務委外機構所在地、與本行有業務往來之機構營業處所所在地。</li>
+                                    <li>對象：本行、臺灣票據交換所、財金資訊公司、未受中央目的事業主管機關限制之國際傳輸個人資料之接收者、本行所屬國泰金融控股股份有限公司及其子公司、本行合作推廣之單位、其他與本行有業務往來之機構、依法有調查權機關或金融監理機關。</li>
+                                    <li>方式：以自動化機器或其他非自動化之利用方式。 </li>
+                                </ul>
+                                </li>
+                                <li>依據個資法第三條規定，您就本行保有的個人資料得行使下列權利：
+                                <ul class="list_disc">
+                                    <li>得向本行查詢、請求閱覽或請求製給複製本，但本行依法得酌收必要成本費用。</li>
+                                    <li>得向本行請求補充或更正，但是依法您應為適當之釋明。</li>
+                                    <li>得向本行請求停止蒐集、處理或利用及請求刪除，但是，依法本行因執行業務所必須者，得不依您的請求為之。</li>
+                                </ul>
+                                </li>
+                                <li><p>您倘不提供個人資料所致權益之影響：</p>
+                                    您可以自由選擇是否提供相關個人資料，但若拒絕提供相關個人資料者，本行將無法提供相關服務。
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+            </div>
+
+
+
+		</section>
+		<footer class="footer">
+			<div class="footer__copyright  hidden--sm">©國泰世華商業銀行股份有限公司</div>
+			<div class="wrap  hidden--lg">
+		
+				<div class="footer__copyrightmobile clearfix">
+					<div class="footer__tel">
+						手機請撥：<a href="tel:0223831000">02-2383-1000</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						服務專線：<a href="tel:0800818001">0800-818-001</a>
+					</div>
+					<ul class="footer__function clearfix">
+						<li><a href="#">常見問題</a></li>
+						<li><a href="#">隱私權保護政策</a></li>
+					</ul>
+					<div>
+						©國泰世華商業銀行股份有限公司
+					</div>
+				</div>
+			</div>
+		</footer>
+		<a href="javascript:void(0)" class="gotop"></a>
+	</div>
+	<!-- Common js /begin -->
+	<script src="Content/js/vendor/jquery-2.1.0.js"></script>
+	<script src="Content/js/jquery.fancyform/jquery.fancyform.js"></script>
+	<script src="Content/js/bootstrap/bootstrap-datepicker.js"></script>
+	<script src="Content/js/vendor/jquery.validate.js"></script>
+	<script src="Content/js/fancybox-3.0/jquery.fancybox.js"></script>
+	<script src="Content/js/helper.js"></script>
+	<script src="Content/js/plugins.js"></script>
+	<script src="Content/js/main.js"></script>
+	<!-- Common js /end -->
+    <!-- Page js /begin -->
+    
+    <script>
+        $(function () {
+            $('.progressBar').progressBar({
+                steps: ['查詢帳單','繳費單與證明列印'],
+                active: 0,
+                afterShow: function () {
+                    $(window).trigger('resize');
+                }
+            });
+        });
+    </script>
+
+
+	
+	<!-- Page js /end -->
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!--<script>
+		(function (b, o, i, l, e, r) {
+			b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+			function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+			e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+			e.src = '//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e, r)
+		}(window, document, 'script', 'ga'));
+		ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
+	</script>-->
+</body>
+</html>
