@@ -1,12 +1,18 @@
 .wrap {
   max-width:1190px; 
   margin: 0 auto;
+  padding:0px 30px;
 }
 .wrap_in{
   width:100%;
-  float: left;
+
   position:relative;
   z-index:99;  
+  display: flex;
+  align-items: center;
+  @include rwd-max-width(960px){
+    display: block;
+  }
 }
 .mainScreen {
   position: relative;
@@ -47,7 +53,7 @@
    }
 }
 .airplan_bg{
-  margin-top:-50px;
+  
 }
 .lognin__area{
   max-width: 400px;
