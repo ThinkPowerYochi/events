@@ -5,6 +5,15 @@
     color:#fff;
   }
 }
+.linkGreen {
+  text-decoration: underline;
+  color: #00994e;
+
+  &:hover {
+    color: #00994e;
+  }
+}
+
 .modal-content{
   border-radius: 20px;;
 }

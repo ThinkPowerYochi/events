@@ -181,7 +181,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 						<div class="flexSpaceBetween ">
 							<div class="half">
@@ -189,20 +189,45 @@
 									班機編號
 								</div>
 								<div class="formItem">
-								<div class=" inputGroup__control--half">
-									<select name=''>
-										<option value="">BR</option>
-										<option value="">SI</option>
-										<option value="">KR</option>
-										<option value="">CH</option>
-										<option value="">ZE</option>
-									</select>
-									<input type="text" value="" placeholder="" />
+									<div class=" inputGroup__control--half">
+										<select name=''>
+											<option value="">BR</option>
+											<option value="">SI</option>
+											<option value="">KR</option>
+											<option value="">CH</option>
+											<option value="">ZE</option>
+										</select>
+										<input type="text" value="" placeholder="" />
 
-								</div>
+									</div>
 								</div>
 							</div>
 						</div>
+						<div class="formItem">
+							<div class=" collapse--note ">
+								<div class="collapse__title on" data-id="js-collapse">注意事項 </div>
+								<div class="collapse__content open" data-content="collapse" style="display: block;">
+									<ul class="CUBList CUBList--sequence">
+										<li data-sequence="一、">
+											2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋；惟未符以上條件之指定類別消費仍需登錄倍數引擎
+										</li>
+										<li data-sequence="二、">
+											如須登錄2018年以前消費，請登錄台灣出發之長榮/立榮國際線航班，以享班機日期起60日內之長榮機上免稅品及海外消費NT$10=1哩回饋</li>
+
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="formItem">
+						<div class="tit_Group mt10">
+							<input id="checkboxagree" type="checkbox" class="checkbox" name="main">
+							<label class="l" for="checkboxagree">我確認已於訂位、開票或於機場辦理辦到手續時，提供會員卡號予長榮航空或代辦旅行社，以將本次搭機之飛行哩程數累計至無限萬哩遊會員帳戶。
+								若持卡人的無限萬哩遊會員帳戶查無該飛行哩程紀錄，將無法享有NT$10=1哩回饋。立即查詢或補登<a href="javascript:void(0)"
+									 class="linkGreen"">立即查詢或補登</a></label>
+						</div>
+						</div>
+						<div class="clearfix"></div>
 						<div class="actionArea">
 							<a href="#" class="btn">
 								<span>確認</span>
@@ -336,6 +361,27 @@
 			$('.closeIcon').click(function () {
 				$('.modal').modal('hide');
 			})
+			$('[data-id="js-collapse"]').on('click', function () {
+				var $this = $(this);
+				var $container = $(this).closest('.collapse');
+				$this.toggleClass('on');
+				$this.next('[data-content="collapse"]').slideToggle(300).toggleClass('open');
+				// $container.siblings('.collapse').children('[data-content="collapse"]').slideUp(300).removeClass('open');
+				// $container.siblings('.collapse').children('[data-id="js-collapse"]').removeClass('on');
+				if ($this.hasClass('on')) {
+					setTimeout(function () {
+						var offsetTop = $this.offset().top;
+						$('body, html').animate({
+							scrollTop: offsetTop - $('header').outerHeight()
+						});
+					}, 350);
+				}
+			}).each(function () {
+				if ($(this).hasClass('on')) {
+					var $container = $(this).closest('.collapse');
+					$(this).next('[data-content="collapse"]').show().addClass('open');
+				}
+			});
 		})
 	</script>
 
