@@ -28,6 +28,7 @@
   background-size: cover;
   background-attachment: fixed;
   display: inline-block;
+  position: relative;
 }
 .header {
   text-align:center; 
@@ -62,9 +63,11 @@
   max-width: 400px;
   text-align:center;
   position:relative;  
+  width:400px;
      @include rwd-max-width(960px) {
         max-width: 100%;
         padding: 20px;
+        width:100%;
      }
 
   .airplan{
