@@ -28,7 +28,7 @@
 
 	<div class="evaGreenContainer">
 		<div class="back_b"> </div>
-		<header >
+		<header>
 			<div class="headerContent">
 				<div class="mainScreen">
 					<a href="https://www.cathaybk.com.tw/cathaybk/" target="_block">
@@ -51,14 +51,14 @@
 			</div>
 		</header>
 		<section class="main">
-			
-				<div class="wrap">
-					<div class="wrap_in">
-						<div class="lognin__area">
-							<div class="airplan"></div>
-							<h2 class="tit">國泰世華長榮航空聯名卡</h2>
-							<p class="login__tit">啟動倍數引擎<br>活動登錄</p>
-							<!-- <div class="tit_Group">
+
+			<div class="wrap">
+				<div class="wrap_in">
+					<div class="lognin__area">
+						<div class="airplan"></div>
+						<h2 class="tit">國泰世華長榮航空聯名卡</h2>
+						<p class="login__tit">啟動倍數引擎<br>活動登錄</p>
+						<!-- <div class="tit_Group">
 								<p>請輸入您的身份證字號</p>
 								<div class="inputGroup">
 									<input maxlength="10" type="text" value="" placeholder="限長榮航空極致無限/無限/極致御璽有效持卡人">
@@ -97,53 +97,112 @@
 								</a>
 							</div> -->
 
-						</div>
-						<div class="airplan_bg"><img src="Content/images/bg_airplan.png" alt="" class="img-responsive"></div>
+					</div>
+					<div class="airplan_bg"><img src="Content/images/bg_airplan.png" alt="" class="img-responsive">
 					</div>
 				</div>
-
-				<div class="cloud_in">
-					<div id="cloud-scroll"></div>
-				</div>
-			
-				<div class="evaTabs container">
-
-					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" data-toggle="tab" href="#actData">輸入活動資料</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="tab" href="#historyDetail">查詢歷史明細</a>
-						</li>
-						
-					</ul>
-
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div id="actData" class="container tab-pane active"><br>
-							<h3>HOME</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-								et dolore magna aliqua.</p>
-								<div class="actionArea">
-									<a href="#" class="btn">
-										<span>確認</span>
-									</a>
-								</div>
-						</div>
-						<div id="historyDetail" class="container tab-pane fade"><br>
-							<h3>Menu 1</h3>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.</p>
-						</div>
-						
-					</div>
-				</div>
-		</section>
-		
-			<div class="bg_white">
-
 			</div>
+
+			<div class="cloud_in">
+				<div id="cloud-scroll"></div>
+			</div>
+
+			<div class="evaTabs container">
+
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#actData">輸入活動資料</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#historyDetail">查詢歷史明細</a>
+					</li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div id="actData" class="container tab-pane active"><br>
+						<div class="flexSpaceBetween ">
+							<div class="half">
+								<div class="formItem">
+									消費卡別
+								</div>
+								<div class="formItem tableForm">
+									<select class="form-control  error">
+										<option>請選擇卡片</option>
+										<option>長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</option>
+										<option>長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</option>
+									</select>
+									<label class="error" for="txtName">請輸入卡片</label>
+								</div>
+							</div>
+							<div class="half">
+								<div class="formItem">
+									機票/團費刷卡日期
+								</div>
+								<div class="formItem tableForm">
+									<div class="inputGroup">
+										<div class="inputGroup__control--third">
+											<input type="text" value="" placeholder="西元年"  />
+											<input type="text" value="" placeholder="月" />
+											<input type="text" value="" placeholder="日" />
+											</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flexSpaceBetween ">
+							<div class="half">
+								<div class="formItem">
+									機票/團費刷卡金額
+								</div>
+								   <div class="formItem tableForm">
+								   	<div class=" inputGroup__control--yuan">
+										   <input id="" type="number" value="" class="error">
+										   
+									   </div>
+									   <label class="error" for="txtName">請輸入金額</label>
+								   </div>
+							</div>
+							<div class="half">
+								<div class="formItem">
+									班機日期
+								</div>
+								<div class="formItem tableForm">
+									<div class="inputGroup">
+										<div class="inputGroup__control--third">
+											<input type="text" value="" placeholder="西元年" />
+											<input type="text" value="" placeholder="月" />
+											<input type="text" value="" placeholder="日" />
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="actionArea">
+							<a href="#" class="btn">
+								<span>確認</span>
+							</a>
+						</div>
+					</div>
+					<div id="historyDetail" class="container tab-pane fade"><br>
+						<h3>Menu 1</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+							commodo
+							consequat.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<div class="bg_white">
+
+		</div>
 		<article class="footer_top">
 			<div class="mainScreen">
 				<div class="copyright">
@@ -179,10 +238,10 @@
 						<div class="evaTitle displayFlex">
 							注意事項
 							<span class="closeIcon close-x">
-                                <img src="Content/images/close-icon.png" alt="" class="img-responsive"></span>
+								<img src="Content/images/close-icon.png" alt="" class="img-responsive"></span>
 						</div>
 						<div class="evaContent">
-						
+
 							<div class="displayFlex textCenter emailSend">
 								<img src="" alt="" class="loudspeaker">
 								<ul class="evaActiveList">
@@ -190,7 +249,7 @@
 										本卡僅適用哩程點數回饋，恕不再提供紅利點數。各項未提供哩程點數回饋之交易依本行網站公告為準。</li>
 									<li> 正附卡消費合併計算回饋哩程點數，小數點後無條件進位並累積於正卡人帳戶中。
 										每位正卡人係依最高持有之正卡卡別判別每人每年最優NT$10=1哩總回饋上限(依消費日為準)，極致無限卡為20萬哩/無限卡為15萬哩/極致御璽卡為10萬哩，超過之消費依「未啟動」哩程回饋。持卡人須先向長榮航空辦理登錄飛行紀錄，並於搭乘長榮/立榮國際線航班後5~180日內，至本行網站或語音系統申請登錄該次航程機票/團費消費及持卡人本人之搭機資訊，始享回饋。機票/團費消費限登錄長榮航空官網或國內旅行社刷長榮航空聯名卡之消費。申請登錄之5個工作日後，可至本行網站查詢登錄結果。
-										
+
 										不適用哩程點數回饋之一般消費排除項目包含：信用卡相關利息及費用（包含但不限於利息／年費／掛失費／預借現金手續費／違約金／國外交易手續費／調閱簽帳單手續費、補發帳單手續費等非消費款項）、預借現金、帳單分期、單筆消費分期（刷卡樂分期）、通信貸款、餘額代償金額及經本行公告除外之專案、稅款、學費、公用事業費用（包含但不限於中華電信電話／網路通訊／影音服務等相關費用及附加費）、路邊停車費、公務機關各項費用（不含E政府平台）、透過繳費平台（如公務機關信用卡繳費平台，含公務機關／國營事業／公立醫療院所等、電子化繳費稅處理平台、醫指付、MyBill線上繳費）繳納之費用、保費、代扣基金、悠遊卡加值、一卡通加值、icash加值、便利超商消費、透過聯合信用卡處理中心小額支付平台之特約商店之消費（如便利超商、連鎖速食店、停車費等）、全聯福利中心消費、eTag儲值／eTag智慧停車費代扣繳、遠東SOGO百貨貴賓廳購買SOGO禮券之消費金額、國壽不動產租金代收、其他經本行公告排除之項目。各項費用細項說明請詳閱本行生活繳費說明網頁。排除項目依本行最新公告為準。分期付款以當期入帳金額計算哩程點數回饋，消費金額如有退貨將予以扣除。
 									</li>
 									<li>持卡人向長榮航空辦理登錄飛行紀錄，係指於訂位、開票或於機場辦理辦到手續時，提供會員卡號予長榮航空或代辦旅行社，以將當次搭機之飛行哩程數累計至無限萬哩遊會員帳戶。若持卡人的無限萬哩遊會員帳戶查無該飛行哩程紀錄，將無法享有最優NT$10=1哩回饋。
@@ -236,28 +295,28 @@
 	<!-- Common js /end -->
 	<!-- Page js /begin -->
 	<script>
-		$(function(){
+		$(function () {
 
-		
-		$("#toggle").on("click", function () {
-			$(".line").toggleClass("on");
-			$(".menu").toggleClass('active');
-			$(".back_b").toggleClass("on");
-		});
 
-		//fancyform
-		$('select:not([multiple])').transformSelect({
-			addDropdownToBody: true
-		});
-		$('select[multiple]').transformSelect({
-			addDropdownToBody: true,
-			showFirstItemInDrop: false
-		});
+			$("#toggle").on("click", function () {
+				$(".line").toggleClass("on");
+				$(".menu").toggleClass('active');
+				$(".back_b").toggleClass("on");
+			});
+
+			//fancyform
+			$('select:not([multiple])').transformSelect({
+				addDropdownToBody: true
+			});
+			$('select[multiple]').transformSelect({
+				addDropdownToBody: true,
+				showFirstItemInDrop: false
+			});
 			// // atm彈跳視窗
 			$('.closeIcon').click(function () {
-			$('.modal').modal('hide');
+				$('.modal').modal('hide');
 			})
-			})
+		})
 	</script>
 
 </body>

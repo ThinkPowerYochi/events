@@ -7,6 +7,8 @@
 }
 .evaTabs{
   margin-top:40px;
+  z-index: 2;
+  position: relative;
   .nav-tabs{
     padding:0px 20px;
     border-bottom: 3px solid #00994e;
@@ -22,7 +24,7 @@
     background-color: #fafafa;
     border-radius: 2px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-    padding: 50px;
+    padding: 30px;
    
   }
   .nav-tabs .nav-item.show .nav-link,
@@ -38,4 +40,16 @@
   .actionArea{
     float:none;
   }
+}
+
+// 表格物件
+.formItem{
+  width: 100%;
+  padding: 3px 20px;
+  position: relative;
+}
+.half{
+  width:50%;
+  flex-basis: 50%;
+  padding:13px 0px ;
 }
