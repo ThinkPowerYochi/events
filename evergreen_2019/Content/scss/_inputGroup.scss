@@ -122,15 +122,17 @@ textarea.form-control:focus {
 .inputGroup__control--half:after {
   clear: both;
 }
-
-.inputGroup__control--half input,
-.inputGroup__control--half .transformSelect {
-  float: left;
-  width: 48%;
-  margin-left: 4%;
+.inputGroup__control--half input{
+width: 66%;
+ margin-left: 4%;
 }
 
-.inputGroup__control--half input:first-of-type,
+.inputGroup__control--half .transformSelect {
+  float: left;
+  width: 30%;
+ 
+}
+
 .inputGroup__control--half .transformSelect:first-of-type {
   margin-left: 0;
 }
@@ -893,7 +895,7 @@ input[type=checkbox].checkbox:disabled+label:before {
     padding: 0;
     max-height: 200px;
     overflow: auto;
-    min-width:200px;
+    // min-width:200px;
   }
 
   .transformSelectDropdown li {
@@ -994,4 +996,12 @@ input[type=checkbox].checkbox:disabled+label:before {
   .flexStartJustify.errorPadding{
     margin-bottom:20px;
   }
-  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
