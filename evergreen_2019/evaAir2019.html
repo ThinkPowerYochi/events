@@ -21,6 +21,7 @@
 	<link rel="shortcut icon" href="./favicon.ico" />
 	<link rel="stylesheet" href="./Content/js/jquery.fancyform/jquery.fancyform.css" />
 	<link rel="stylesheet" href="Content/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Content/css/rwd-table.min.css">
 	<link rel="stylesheet" href="Content/css/evaGreen.css">
 </head>
 
@@ -58,44 +59,6 @@
 						<div class="airplan"></div>
 						<h2 class="tit">國泰世華長榮航空聯名卡</h2>
 						<p class="login__tit">啟動倍數引擎<br>活動登錄</p>
-						<!-- <div class="tit_Group">
-								<p>請輸入您的身份證字號</p>
-								<div class="inputGroup">
-									<input maxlength="10" type="text" value="" placeholder="限長榮航空極致無限/無限/極致御璽有效持卡人">
-								</div>
-							</div>
-							<div class="tit_Group">
-								<p>請輸入您的出生年月日</p>
-								<div class="inputGroup__control inputGroup__control--three">
-									<select style="display:block" name=''>
-										<option value="">西元年</option>
-										<option value="">1</option>
-										<option value="">2</option>
-									</select>
-									<select style="display:block" name=''>
-										<option value="">月</option>
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">3</option>
-									</select>
-									<select style="display:block" name=''>
-										<option value="">日</option>
-										<option value="">1</option>
-										<option value="">2</option>
-									</select>
-								</div>
-							</div>
-							<div class="tit_Group mt10">
-								<input id="checkboxagree" type="checkbox" class="checkbox" name="main">
-								<label class="l" for="checkboxagree">本人已完全暸解並同意遵守<a href="javascript:void(0)" data-toggle="modal"
-										data-target="#evaModal" class="linkWhite">活動辦法及注意事項</a></label>
-							</div>
-
-							<div class="actionArea">
-								<a href="#" class="btn">
-									<span>確認</span>
-								</a>
-							</div> -->
 
 					</div>
 					<div class="airplan_bg"><img src="Content/images/bg_airplan.png" alt="" class="img-responsive">
@@ -112,17 +75,17 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="#actData">輸入活動資料</a>
+						<a class="nav-link active " data-toggle="tab" href="#actData">輸入活動資料</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#historyDetail">查詢歷史明細</a>
+						<a class="nav-link historyDetail " data-toggle="tab" href="#historyDetail">查詢歷史明細</a>
 					</li>
 
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
-					<div id="actData" class="container tab-pane active"><br>
+					<div id="actData" class="container tab-pane active  "><br>
 						<div class="flexSpaceBetween ">
 							<div class="half">
 								<div class="formItem">
@@ -220,29 +183,123 @@
 							</div>
 						</div>
 						<div class="formItem">
-						<div class="tit_Group mt10">
-							<input id="checkboxagree" type="checkbox" class="checkbox" name="main">
-							<label class="l" for="checkboxagree">我確認已於訂位、開票或於機場辦理辦到手續時，提供會員卡號予長榮航空或代辦旅行社，以將本次搭機之飛行哩程數累計至無限萬哩遊會員帳戶。
-								若持卡人的無限萬哩遊會員帳戶查無該飛行哩程紀錄，將無法享有NT$10=1哩回饋。立即查詢或補登<a href="javascript:void(0)"
-									 class="linkGreen"">立即查詢或補登</a></label>
+							<div class="tit_Group mt10">
+								<input id="checkboxagree" type="checkbox" class="checkbox" name="main">
+								<label class="l"
+									for="checkboxagree">我確認已於訂位、開票或於機場辦理辦到手續時，提供會員卡號予長榮航空或代辦旅行社，以將本次搭機之飛行哩程數累計至無限萬哩遊會員帳戶。
+									若持卡人的無限萬哩遊會員帳戶查無該飛行哩程紀錄，將無法享有NT$10=1哩回饋。立即查詢或補登<a href="javascript:void(0)"
+										class="linkGreen"">立即查詢或補登</a></label>
 						</div>
 						</div>
-						<div class="clearfix"></div>
-						<div class="actionArea">
-							<a href="#" class="btn">
-								<span>確認</span>
-							</a>
+						<div class=" clearfix"></div>
+							<div class="actionArea">
+								<a href="#" class="btn">
+									<span>確認</span>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div id="historyDetail" class="container tab-pane fade"><br>
-						<h3>Menu 1</h3>
-						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-							commodo
-							consequat.</p>
-					</div>
+						<!-- 查詢歷史明細 -->
+						<div id="historyDetail" class="container tab-pane fade active p-fixed">
+							<div class="flexSpaceBetween">
+							 <div class="flexStartJustify ">
+							 	<div class="formItem orderByTitle">
+							 		排序方式:
+							 	</div>
+							 	<div class="formItem tableForm orderBy">
+							 		<select class="form-control  ">
+										 <option>依刷卡日期</option>
+										 <option>依班機日期</option>
+							 			<option>依金額</option>
+							 			
+							 		</select>
+							 	</div>
+							 </div>
+							 <p>歷史登錄明細(近六個月)</p>
+							 </div>
+							<!-- 結果表單 -->
+							<div class="table-responsive" data-pattern="priority-columns" data-add-focus-btn="false">
+								<table cellspacing="0"
+									class="table table-small-font table-bordered table-even detailTable table--dataTh"
+									id="detailTable">
 
+
+									<thead >
+										<tr>
+											<!-- <th data-priority="1"></th> -->
+											<th class="textCenter "></th>
+											<th class="textCenter">登錄日期</th>
+											<th class="textCenter">消費卡別</th>
+											<th class="textCenter">刷卡金額</th>
+											<th class="textCenter">刷卡日期</th>
+											<th class="textCenter">班機日期</th>
+											<th class="textCenter">班機編號</th>
+											<th class="textCenter">登錄結果</th>
+											<th class="textCenter">備註</th>
+
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr>
+
+											<td data-title="" class="textCenter">
+												<div class="tableDelete borderBtn">刪除</div> 
+												<div class="tableAmend borderBtn">修改</div>
+											</td>
+											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
+											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
+											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機編號" class="textCenter">BR-0999</td>
+											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultSuccess">成功</span></td>
+											<td data-title="備註" class="textCenter textLeft">
+												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</td>
+										</tr>
+										<tr>
+
+											<td data-title="" class="textCenter">
+												<div class="tableDelete borderBtn">刪除</div>
+												<div class="tableAmend borderBtn">修改</div>
+											</td>
+											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
+											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
+											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機編號" class="textCenter">BR-0999</td>
+											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultFail">失敗</span></td>
+											<td data-title="備註" class="textCenter textLeft">
+												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</td>
+										</tr>
+										<tr>
+
+											<td data-title="" class="textCenter">
+												<div class="tableDelete borderBtn">刪除</div>
+												<div class="tableAmend borderBtn">修改</div>
+											</td>
+											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
+											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
+											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機日期" class="textCenter">2019/01/01</td>
+											<td data-title="班機編號" class="textCenter">BR-0999</td>
+											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultCheck">審核中</span></td>
+											<td data-title="備註" class="textCenter textLeft">
+												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</td>
+										</tr>
+										
+									
+
+
+									</tbody>
+								</table>
+							</div>
+							<!-- 結果表單end -->
+						</div>
+
+					</div>
 				</div>
-			</div>
 		</section>
 
 		<div class="bg_white">
@@ -336,12 +393,18 @@
 	<script src="Content/js/vendor/jquery-3_2_1-min.js"></script>
 	<script src="Content/js/vendor/bootstrap.min.js"></script>
 	<script src="Content/js/jquery.fancyform/jquery.fancyform.js"></script>
-	<script src="Content/js/vendor/jquery.validate.js"></script>
+	<!-- <script src="Content/js/vendor/jquery.validate.js"></script> -->
+	<script src="Content/js/vendor/rwd-table.js"></script>
+
 	<!-- Common js /end -->
 	<!-- Page js /begin -->
 	<script>
 		$(function () {
+			$('.historyDetail').click(function () {
+				$('#historyDetail').removeClass('p-fixed');
 
+			})
+			$('.table-responsive').responsiveTable('update');
 
 			$("#toggle").on("click", function () {
 				$(".line").toggleClass("on");
@@ -382,6 +445,7 @@
 					$(this).next('[data-content="collapse"]').show().addClass('open');
 				}
 			});
+
 		})
 	</script>
 
