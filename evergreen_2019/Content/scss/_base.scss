@@ -276,6 +276,48 @@
     background-position:99999999px 0;
   }
 }
+@keyframes backgroundScroll_1{
+  from {
+    background-position: -1000px 0;
+  }
+
+  to {
+    background-position: 3000px 0;
+  }
+}
+@keyframes airplaneMove {
+
+  0%,
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0)
+  }
+ 50%,
+ 70%,
+ 90% {
+   transform: translate3d(5px, 30px, 10px)
+ }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0)
+  }
+}
+
+.airplaneMove {
+  -webkit-animation-name: airplaneMove;
+  animation-name: airplaneMove;
+  animation: 20s airplaneMove infinite linear;
+}
 $inputHeight:30px;
 $inputWidth:30px;
 $inputBorderWidth:1px;

@@ -55,8 +55,11 @@
 }
 .airplan_bg{
     width: 80%;
+    margin-left: 5%;
+    display: inline-block;
   @include rwd-max-width(960px){
     width:100%;
+    margin-left: 0px;
   }
 }
 .lognin__area{
@@ -114,6 +117,9 @@
     font-weight:600;
     line-height:55px;
     padding-bottom:15px;    
+    @include rwd-max-width(960px){
+      font-size: 40px;
+    }
   }
   .tit_Group{
     @include r;
@@ -153,11 +159,10 @@
       display: block;
       input[type="text"]{
         width:100%;
-        padding:12px;
+      
         border-radius: 2px;
         border: solid 1px rgba(49, 49, 49, 0.2);
         font-size:16px;
-        color:#000; 
         &::placeholder{
           color:#6d6d6d;
           font-size:15px; 
@@ -173,7 +178,7 @@
   bottom: -5px;
   overflow:hidden;
   height:200px;
-  #cloud-scroll {
+  .cloud-scroll {
     background: url(../images/clouds.png) repeat-x;
     top: 0;
     left: 0;
@@ -184,11 +189,51 @@
     animation: 1000000s backgroundScroll infinite linear;
   } 
 }
+.cloud_in1 {
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  overflow: hidden;
+  height: 250px;
+
+  .cloud-scroll {
+    background: url(../images/cloud_1.png) repeat-x;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+    animation: 30s backgroundScroll_1 infinite linear;
+    background-repeat: no-repeat;
+  }
+}
+.cloud_in2 {
+  width: 100%;
+  position: absolute;
+  bottom: 25%;
+  overflow: hidden;
+  height: 180px;
+
+  .cloud-scroll {
+    background: url(../images/cloud_2.png) repeat-x;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+    animation: 50s backgroundScroll_1 infinite linear;
+    background-repeat: no-repeat;
+    
+  }
+}
   .actionArea {
     float: left;
     width: 100%;
     text-align: center;
-   
+   margin-top: 10px;
+   margin-bottom: 20px;
 
     a {
       margin: 0 10px;
