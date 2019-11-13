@@ -518,19 +518,23 @@ article.footer_top .copyright .text a:hover {
 
 footer {
   position: relative;
+  &:after{
+    content: " ";
   width: 100%;
-  height: auto;
+  height: 20px;
   float: left;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: 0;
-  border-top: 1px solid #e7e7e7;
   background-image: url(../images/footer_bg.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100%
+  }
+  
+
 }
 
 footer.no_border {
@@ -562,7 +566,7 @@ footer .des p {
   font-family: "微軟正黑體";
   color: #666666;
   text-align: left;
-  padding: 5px 20px 0px ;
+  padding: 5px 40px 0px ;
 }
 
 footer .des p.b {
@@ -857,7 +861,7 @@ footer .des2 .copyright .text a {
     top: 0;
     bottom: 0;
     margin: 0;
-    padding: 25px 25px 0
+    padding: 25px 5px 0
   }
 
   article.footer_top .copyright .menu {
@@ -1029,7 +1033,6 @@ footer .des2 .copyright .text a {
 
   header .headerContent .menu {
     margin-top: -26px;
-    width: 320px;
   }
 
   header .headerContent .menu a {
@@ -1149,7 +1152,7 @@ footer .des2 .copyright .text a {
     text-align: left;
     letter-spacing: 0.5px;
     padding-top: 0px;
-    margin-bottom: 15px
+    margin-bottom: 20px
   }
 
   footer .des p.b {

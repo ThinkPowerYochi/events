@@ -20,6 +20,7 @@
   position: relative;
     @include rwd-max-width(640px) {
       padding: 0px;
+      margin-top:0px;
     }
   .nav-tabs{
     padding:0px 20px;
