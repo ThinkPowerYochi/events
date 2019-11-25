@@ -231,21 +231,22 @@
 						</div>
 						<!-- 查詢歷史明細 -->
 						<div id="historyDetail" class="container tab-pane fade active p-fixed">
-							<div class="flexSpaceBetween">
-								<div class="flexStartJustify outOfOrder">
-									<div class="formItem orderByTitle">
-										排序方式:
-									</div>
-									<div class="formItem tableForm orderBy">
-										<select class="form-control  ">
-											<option>依刷卡日期</option>
-											<option>依班機日期</option>
-											<option>依金額</option>
-
-										</select>
-									</div>
+							<div class="flexStartJustify outOfOrder">
+								<div class="formItem orderByTitle">
+									排序方式:
 								</div>
+								<div class="formItem tableForm orderBy">
+									<select class="form-control  ">
+										<option>依刷卡日期</option>
+										<option>依班機日期</option>
+										<option>依金額</option>
+
+									</select>
+								</div>
+							</div>
+							<div class="flexSpaceBetween">
 								<p>歷史登錄明細(近六個月)</p>
+								<p>單位：新台幣</p>
 							</div>
 							<!-- 結果表單 -->
 							<div class="table-responsive" data-pattern="priority-columns" data-add-focus-btn="false">
@@ -287,7 +288,7 @@
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span
+											<td data-title="登錄結果" class="textCenter orderTd"> <span
 													class="orderResult orderResultSuccess">成功</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
@@ -310,7 +311,7 @@
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span
+											<td data-title="登錄結果" class="textCenter orderTd"> <span
 													class="orderResult orderResultFail">失敗</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
@@ -332,7 +333,7 @@
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span
+											<td data-title="登錄結果" class="textCenter orderTd"> <span
 													class="orderResult orderResultCheck">審核作業中</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
@@ -354,7 +355,7 @@
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultDelete">已刪除</span></td>
+											<td data-title="登錄結果" class="textCenter orderTd"> <span class="orderResult orderResultDelete">已刪除</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
 													2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</span>

@@ -150,7 +150,7 @@ td.textLeft{
 
 .orderResult{
   position: relative;
-  left:15px;
+  left:25px;
   margin:3px 5px;
   &:before{
     content:'';
@@ -166,6 +166,12 @@ td.textLeft{
    }
   }
  
+}
+.orderTd.textCenter {
+  text-align: left;
+     @media (max-width: 960px) {
+       text-align: center;
+     }
 }
 .orderResultSuccess{
    &:before {
@@ -210,6 +216,9 @@ td.textLeft{
 .modal .transformSelect{
   max-width: 318px;
 }
+  .outOfOrder {
+    margin-bottom: 10px;
+  }
 // 縮小table
 @media (max-width: 960px) {
   .outOfOrder{
