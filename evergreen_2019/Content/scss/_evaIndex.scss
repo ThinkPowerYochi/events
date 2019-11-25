@@ -66,7 +66,9 @@
 .modal.bottom.fade.show .modal-dialog {
   bottom: 0px;
 }
-
+.recapcha{
+  margin:0 10px;
+}
 @media(max-width:768px){
   .modal-dialog {
     margin:0px;
