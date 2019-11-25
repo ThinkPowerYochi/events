@@ -185,7 +185,26 @@ td.textLeft{
 .remark{
   font-size: 12px;
 }
-
+.modal-login-width{
+  max-width: 500px;
+  .pd50{
+    padding: 30px 50px;
+  }
+}
+.loginBoxWord{
+   font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+.labelWidth{
+    min-width: 80px;
+}
+.width100{
+  width: 100%;
+}
+.modal .transformSelect{
+  max-width: 318px;
+}
 // 縮小table
 @media (max-width: 960px) {
   .outOfOrder{

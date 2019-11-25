@@ -108,9 +108,24 @@
 								<div class="formItem tableForm">
 									<div class="inputGroup">
 										<div class="inputGroup__control--third">
-											<input type="number" value="" placeholder="西元年" />
-											<input type="number" value="" placeholder="月" />
-											<input type="number" value="" placeholder="日" />
+											<select class="form-control ">
+												<option>西元年</option>
+												<option>2020</option>
+												<option>2019</option>
+												<option>2018</option>
+											</select>
+											<select class="form-control ">
+												<option>月</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+											<select class="form-control ">
+												<option>日</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
 										</div>
 
 									</div>
@@ -137,9 +152,24 @@
 								<div class="formItem tableForm">
 									<div class="inputGroup">
 										<div class="inputGroup__control--third">
-											<input type="number" value="" placeholder="西元年" />
-											<input type="number" value="" placeholder="月" />
-											<input type="number" value="" placeholder="日" />
+											<select class="form-control ">
+												<option>西元年</option>
+												<option>2020</option>
+												<option>2019</option>
+												<option>2018</option>
+											</select>
+											<select class="form-control ">
+												<option>月</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+											<select class="form-control ">
+												<option>日</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
 										</div>
 
 									</div>
@@ -194,29 +224,29 @@
 						</div>
 						<div class=" clearfix"></div>
 							<div class="actionArea">
-								<a href="#" class="btn">
-									<span>確認</span>
+								<a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#loginSuccess">
+									<span>確認登錄</span>
 								</a>
 							</div>
 						</div>
 						<!-- 查詢歷史明細 -->
 						<div id="historyDetail" class="container tab-pane fade active p-fixed">
 							<div class="flexSpaceBetween">
-							 <div class="flexStartJustify outOfOrder">
-							 	<div class="formItem orderByTitle">
-							 		排序方式:
-							 	</div>
-							 	<div class="formItem tableForm orderBy">
-							 		<select class="form-control  ">
-										 <option>依刷卡日期</option>
-										 <option>依班機日期</option>
-							 			<option>依金額</option>
-							 			
-							 		</select>
-							 	</div>
-							 </div>
-							 <p>歷史登錄明細(近六個月)</p>
-							 </div>
+								<div class="flexStartJustify outOfOrder">
+									<div class="formItem orderByTitle">
+										排序方式:
+									</div>
+									<div class="formItem tableForm orderBy">
+										<select class="form-control  ">
+											<option>依刷卡日期</option>
+											<option>依班機日期</option>
+											<option>依金額</option>
+
+										</select>
+									</div>
+								</div>
+								<p>歷史登錄明細(近六個月)</p>
+							</div>
 							<!-- 結果表單 -->
 							<div class="table-responsive" data-pattern="priority-columns" data-add-focus-btn="false">
 								<table cellspacing="0"
@@ -224,7 +254,7 @@
 									id="detailTable">
 
 
-									<thead >
+									<thead>
 										<tr>
 											<!-- <th data-priority="1"></th> -->
 											<th class="textCenter "></th>
@@ -245,64 +275,72 @@
 
 											<td data-title="" class="textCenter ">
 												<div class="tableFunBtn">
-												<div class="tableDelete borderBtn">刪除</div> 
-												<div class="tableAmend borderBtn">修改</div>
+													<div class="tableDelete borderBtn">刪除</div>
+													<div class="tableAmend borderBtn " data-toggle="modal" data-target="#dataChange">修改</div>
 												</div>
-												
+
 											</td>
 											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
-											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="消費卡別" class="textCenter textLeft">
+												長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
 											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultSuccess">成功</span></td>
+											<td data-title="登錄結果" class="textCenter"> <span
+													class="orderResult orderResultSuccess">成功</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
-												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋
+													2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋
 												</span>
 											</td>
 										</tr>
 										<tr>
 
 											<td data-title="" class="textCenter">
-													<div class="tableFunBtn">
-														<div class="tableDelete borderBtn">刪除</div>
-														<div class="tableAmend borderBtn">修改</div>
-													</div>
+												<div class="tableFunBtn">
+													<div class="tableDelete borderBtn">刪除</div>
+													<div class="tableAmend borderBtn">修改</div>
+												</div>
 											</td>
 											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
-											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="消費卡別" class="textCenter textLeft">
+												長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
 											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultFail">失敗</span></td>
+											<td data-title="登錄結果" class="textCenter"> <span
+													class="orderResult orderResultFail">失敗</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
-												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</span></td>
+													2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</span>
+											</td>
 										</tr>
 										<tr>
 
 											<td data-title="" class="textCenter">
-													<div class="tableFunBtn">
-														<div class="tableDelete borderBtn">刪除</div>
-														<div class="tableAmend borderBtn">修改</div>
-													</div>
+												<div class="tableFunBtn">
+													<div class="tableDelete borderBtn">刪除</div>
+													<div class="tableAmend borderBtn">修改</div>
+												</div>
 											</td>
 											<td data-title="登錄日期" class="textCenter">2019/02/01</td>
-											<td data-title="消費卡別" class="textCenter textLeft">長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
+											<td data-title="消費卡別" class="textCenter textLeft">
+												長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</td>
 											<td data-title="刷卡金額" class="textCenter">3,000,000</td>
 											<td data-title="刷卡日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機日期" class="textCenter">2019/01/01</td>
 											<td data-title="班機編號" class="textCenter">BR-0999</td>
-											<td data-title="登錄結果" class="textCenter"> <span class="orderResult orderResultCheck">審核中</span></td>
+											<td data-title="登錄結果" class="textCenter"> <span
+													class="orderResult orderResultCheck">審核中</span></td>
 											<td data-title="備註" class="textCenter textLeft">
 												<span class="remark">
-												2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</span></td>
+													2018年起完成消費與請款入帳之長榮航空官網購票、長榮航空機上免稅品、海外消費無需登錄倍數引擎，即享NT$10=1哩回饋</span>
+											</td>
 										</tr>
-										
-									
+
+
 
 
 									</tbody>
@@ -377,7 +415,7 @@
 							</div>
 
 							<div class="actionArea">
-								<a href="#" class="btn">
+								<a href="javascript:void(0)" class="btn closeIcon">
 									<span>確認</span>
 								</a>
 							</div>
@@ -389,15 +427,128 @@
 			</div>
 		</div>
 		<!-- 彈跳視窗end -->
-		<!-- <footer class="footer">
-				<div class="wrap">
-					<div class="footer__warning">
-						<div class="footer__text">
-								謹慎理財信用無價
+		<!-- 彈跳視窗 -->
+
+		<div class="modal fade bottom" id="dataChange" tabindex="-1" role="dialog" data-backdrop="static">
+			<div class="modal-dialog modal-dialog-centered modal-login-width " role="document">
+				<div class="modal-content bgTransparent">
+
+					<div class="evaBox" role="dialog">
+						<div class="evaTitle displayFlex">
+							修改登錄明細
+							<span class="closeIcon close-x">
+								<img src="Content/images/close-icon.png" alt="" class="img-responsive"></span>
+						</div>
+						<div class="evaContent">
+
+							<div class="displayFlex  emailSend">
+								<img src="" alt="" >
+									<div class="pd50 width100">
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">登錄日期</div>
+												<div class="">
+													2019-02-21
+												</div>
+											</div>
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">消費卡別</div>
+												<div class="width100">				
+													<select class="form-control ">
+														<option>請選擇卡片</option>
+														<option>長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</option>
+														<option>長榮icash極致無限卡正卡-陳Ｘ祺(卡號後4碼1482）</option>
+													</select>
+												</div>
+											</div>
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">刷卡金額</div>
+												<div class="width100">
+													<div class=" inputGroup__control--yuan">
+														<input id="" type="number" value="" >
+
+													</div>
+												</div>
+											</div>
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">刷卡日期</div>
+												<div class="inputGroup__control--third width100" >
+													<select class="form-control ">
+														<option>西元年</option>
+														<option>2020</option>
+														<option>2019</option>
+														<option>2018</option>
+													</select>
+													<select class="form-control ">
+														<option>月</option>
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+													</select>
+													<select class="form-control ">
+														<option>日</option>
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+													</select>
+												</div>
+
+											</div>
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">班機日期</div>
+												<div class="inputGroup__control--third width100">
+														<select class="form-control ">
+															<option>西元年</option>
+															<option>2020</option>
+															<option>2019</option>
+															<option>2018</option>
+														</select>
+														<select class="form-control ">
+															<option>月</option>
+															<option>1</option>
+															<option>2</option>
+															<option>3</option>
+														</select>
+														<select class="form-control ">
+															<option>日</option>
+															<option>1</option>
+															<option>2</option>
+															<option>3</option>
+														</select>
+												</div>
+
+											</div>
+											<div class="inputGroup flexStartJustify">
+												<div class="labelWidth">班機編號</div>
+												<div class="inputGroup__control--half width100">
+													<select class="form-control ">
+														<option>西元年</option>
+														<option>2020</option>
+														<option>2019</option>
+														<option>2018</option>
+													</select>
+													<input type="text">
+												</div>
+
+											</div>
+												
+											
+											</div>
+							</div>
+
+							<div class="actionArea">
+								<a href="javascript:void(0)" class="btn closeIcon">
+									<span>確認</span>
+								</a>
+							</div>
 						</div>
 					</div>
+
+
 				</div>
-		</footer> -->
+			</div>
+		</div>
+		<!-- 彈跳視窗end -->
+
 
 		<a href="javascript:void(0)" class="gotop"></a>
 	</div>
@@ -433,7 +584,7 @@
 				addDropdownToBody: true,
 				showFirstItemInDrop: false
 			});
-			// // atm彈跳視窗
+			// 彈跳視窗
 			$('.closeIcon').click(function () {
 				$('.modal').modal('hide');
 			})
