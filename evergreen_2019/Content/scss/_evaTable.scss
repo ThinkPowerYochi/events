@@ -200,6 +200,9 @@ td.textLeft{
   max-width: 500px;
   .pd50{
     padding: 30px 50px;
+    @include rwd-max-width(960px){
+       padding: 30px 10px;
+    }
   }
 }
 .loginBoxWord{
@@ -213,8 +216,11 @@ td.textLeft{
 .width100{
   width: 100%;
 }
+.overflowHidden{
+  overflow: hidden;
+}
 .modal .transformSelect{
-  max-width: 318px;
+
 }
   .outOfOrder {
     margin-bottom: 10px;
