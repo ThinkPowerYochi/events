@@ -4265,9 +4265,14 @@ button.cubinvest-o-btn {
   .cubinvest-c-formElement--auto {
     width: auto;
     display: inline-block; }
-      .cubinvest-c-formElement-width100 {
+    .cubinvest-c-formElement-width100 {
         width: 100%;
       }
+        @media only screen and (max-width: 768px) {
+           .cubinvest-c-formElement-width100 {
+             width: 88%;
+           }
+        }
   .cubinvest-c-formElement__message {
     display: none;
     text-align: left; }
@@ -6785,6 +6790,7 @@ button.slick-next.slick-disabled:before {
   .cubinvest-l-unitInfo__list--currency > label {
     font-size: 14px;
     margin-right: 10px;
+    word-break: keep-all;
   width:35px; }
   .cubinvest-l-unitInfo__item {
     display: table-cell;

@@ -583,6 +583,12 @@ width: 66%;
 .inputGroup__control.w200 {
   margin-left: 200px;
 }
+label.l {
+  color: #fff;
+}
+.evaTabs label.l {
+  color: #000;
+}
 @media screen and (max-width:1200px) {
   .inputGroup__info {
     margin-top: 2px;
@@ -968,7 +974,6 @@ input[type=checkbox].checkbox:disabled+label:before {
     border: 1px solid #f00;
   }
   
-
   label.error {
     color: #ff2828;
     display: block;
@@ -982,6 +987,17 @@ input[type=checkbox].checkbox:disabled+label:before {
           padding:3px 0px;
         }
   }
+  .evaGreenContainer {
+      label.error {
+           padding: 3px 0px;
+      }
+      .evaTabs{
+          label.error {
+            padding: 3px 20px;
+          }
+      }
+  }
+
 
   select.form-control.error+.transformSelect span {
        border:1px solid #ff2828;

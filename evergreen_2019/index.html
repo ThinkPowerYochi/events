@@ -61,13 +61,14 @@
 							<div class="tit_Group">
 								<p>請輸入您的身份證字號</p>
 								<div class="inputGroup">
-									<input maxlength="10" type="text" value="" placeholder="限長榮航空極致無限/無限/極致御璽有效持卡人">
+									<input maxlength="10" type="text" value="" placeholder="限長榮航空極致無限/無限/極致御璽有效持卡人" class="error">
+									<label class="error" for="txtName">請輸入卡片</label>
 								</div>
 							</div>
 							<div class="tit_Group">
 								<p>請輸入您的出生年月日</p>
 								<div class="inputGroup">
-									<div class="inputGroup__control--third">
+									<div class="inputGroup__control--third error">
 										<select class="form-control ">
 											<option>西元年</option>
 											<option>2020</option>
@@ -87,6 +88,7 @@
 											<option>3</option>
 										</select>
 									</div>
+										<label class="error" for="txtName">請輸入卡片</label>
 
 								</div>
 							</div>
@@ -94,7 +96,8 @@
 								<p>請輸入驗證碼</p>
 								<div class="inputGroup">
 									<div class="displayFlex">
-									<input maxlength="10" type="number" value="" placeholder="請輸入右方圖形數字">
+									<input maxlength="10" type="number" value="" placeholder="請輸入右方圖形數字" class="error">
+									<label class="error" for="txtName">請輸入卡片</label>
 									<img src="Content/images/qrcode.png" alt="" class="recapcha"> 
 									<a href=""><img src="Content/images/reflash.png" alt=""></a>
 									</div>
