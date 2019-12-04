@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+  background-color: #fff; }
+  .is-popup html, .is-popup
+  body {
+    overflow: hidden; }
+
+body.is-fixed {
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll; }
+
+.cubinvest-l-container {
+  min-height: 100%;
+  overflow: hidden; }
+
+.cubinvest-l-content--fixTop {
+  padding-top: 50px; }
+
+@media only screen and (min-width: 960px) {
+  .cubinvest-l-content--fixTop {
+    padding-top: 0; } }
+
+.cubinvest-l-wrap--pd {
+  padding: 0 20px; }
+
+@media only screen and (min-width: 960px) {
+  .cubinvest-l-wrap {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative; }
+    .cubinvest-l-wrap--pd {
+      padding: 0 15px; }
+    .cubinvest-l-wrap--md {
+      width: 840px; }
+    .cubinvest-l-wrap--bread {
+      width: 80%;
+      max-width: 1280px;
+      min-width: 960px; } }
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+/* ==========================================================================
+      Footer 
+     ========================================================================== */
+.footer {
+  display: none;
+  font-size: 12px;
+  line-height: 1; }
+
+.cubinvest-l-mobileFooter {
+  display: block; }
+
+.cubinvest-c-footer {
+  display: block;
+  padding: 10px 15px;
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #51be77 0%, #27ae58 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#51be77), to(#27ae58));
+  background: -o-linear-gradient(top, #51be77 0%, #27ae58 100%);
+  background: linear-gradient(to bottom, #51be77 0%, #27ae58 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51be77', endColorstr='#27ae58', GradientType=1); }
+  .cubinvest-c-footer__tel {
+    margin-bottom: 5px; }
+    .cubinvest-c-footer__tel > a {
+      color: #fff; }
+  .cubinvest-c-footer__link {
+    padding: 0 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff; }
+    .cubinvest-c-footer__link > a {
+      color: #fff;
+      font-size: 12px; }
+  .cubinvest-c-footer__copyright {
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0 0;
+    text-align: center; }
+  .cubinvest-c-footer__function {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .cubinvest-c-footer__function > li {
+      float: left; }
+      .cubinvest-c-footer__function > li > a {
+        color: #fff; }
+      .cubinvest-c-footer__function > li:after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        background-color: #fff;
+        margin: 0 5px; }
+      .cubinvest-c-footer__function > li:last-of-type:after {
+        display: none; }
+
+.cubinvest-c-goTop {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  bottom: 100px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url(../images/icons/footer/icon-goTop.png);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px; }
+
+@media only screen and (min-width: 960px) {
+  .footer {
+    display: block; }
+  .cubinvest-l-mobileFooter {
+    display: none; } }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+      Fix CUB CSS 
+    ========================================================================== */
+.footer .frame-sitemap {
+  padding: 0; }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="60px" viewBox="0 0 85 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>B457702C-1C54-4FB7-86E9-AFD168076F88</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.57375 0.795383333 25.41375 0.795383333 25.41375 12.08909 0.57375 12.08909"></polygon>
+    </defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="頁面固定元件/cell/風向球3">
+            <g id="Group-11" transform="translate(0.000000, 42.711864)" fill="#6D6D6D" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="12" font-weight="bold" letter-spacing="0.4821428">
+                <text id="多">
+                    <tspan x="73.3312789" y="13.6440678">多</tspan>
+                </text>
+                <text id="空">
+                    <tspan x="0" y="13.6440678">空</tspan>
+                </text>
+            </g>
+            <g id="Group-10" transform="translate(42.986241, 22.696406) rotate(-7.000000) translate(-42.986241, -22.696406) translate(35.986241, 3.696406)">
+                <g id="Group-13" transform="translate(0.000000, -0.000000)">
+                    <path d="M6.9861474,37.5216142 C9.50887181,37.5216142 11.553944,35.3373535 11.553944,32.6429314 C11.553944,30.8466501 10.0313451,20.295682 6.9861474,0.990027099 C3.94094966,20.295682 2.41835079,30.8466501 2.41835079,32.6429314 C2.41835079,35.3373535 4.46342299,37.5216142 6.9861474,37.5216142 Z" id="Oval" fill="#989797" transform="translate(6.986147, 19.255821) rotate(6.000000) translate(-6.986147, -19.255821) "></path>
+                    <ellipse id="Oval" fill="#FFFFFF" transform="translate(5.388076, 32.216119) rotate(2.000000) translate(-5.388076, -32.216119) " cx="5.38807571" cy="32.2161194" rx="2.03389013" ry="2.03222558"></ellipse>
+                </g>
+            </g>
+            <g id="Group-12" transform="translate(1.000000, 0.000000)">
+                <g id="Group-3" transform="translate(29.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M12.99375,10.69484 C16.25805,10.69484 19.40625,11.19339 22.38705,12.08909 L25.41375,2.66452333 C21.48255,1.45617333 17.31645,0.794256667 12.99375,0.794256667 C8.67105,0.794256667 4.50495,1.45617333 0.57375,2.66452333 L3.60045,12.08909 C6.58125,11.19339 9.72945,10.69484 12.99375,10.69484" id="Fill-1" fill="#FF2828" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M31,12.1473929 L27.9881913,3 C19.955805,5.74531271 13.031334,10.7897906 8,17.3506227 L15.8764176,23 C19.7110955,18.0622691 24.9414241,14.2576981 31,12.1473929" id="Fill-4" fill="#ECECEC"></path>
+                <path d="M68.1218144,23 L76,17.3506227 C70.9692542,10.7925277 64.0455927,5.74531271 56.0141454,3 L53,12.15013 C59.0578677,14.2576981 64.2902736,18.0622691 68.1218144,23" id="Fill-6" fill="#ECECEC"></path>
+                <path d="M84,43 C84,34.0687493 81.250562,25.8051533 76.5998617,19 L69,24.6477027 C72.5223932,29.8630715 74.5974408,36.1811652 74.5974408,43 L84,43 Z" id="Fill-8" fill="#ECECEC"></path>
+                <path d="M0,43 L9.40255923,43 C9.40255923,36.1811652 11.4776068,29.8658078 15,24.6477027 L7.40013834,19 C2.74943801,25.8051533 0,34.0687493 0,43" id="Fill-10" fill="#ECECEC"></path>
+            </g>
+        </g>
+    </g>
+</svg>

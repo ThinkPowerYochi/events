@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>E41D206B-8E83-488A-B5FC-BEF29EC998CC</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/120/課稅優勢">
+            <ellipse id="Oval" stroke="#00994E" stroke-width="2" fill="#C0E3D2" cx="45" cy="23" rx="15" ry="7"></ellipse>
+            <path d="M30,23 C30,24.3937207 30,26.3792454 30,28.9565742 C30,32.8225675 36.7157288,35.9565742 45,35.9565742 C53.2842712,35.9565742 60,32.8225675 60,28.9565742 L60,23.5712743" id="Path" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M30,36 C30,37.3937207 30,39.3792454 30,41.9565742 C30,45.8225675 36.7157288,48.9565742 45,48.9565742 C53.2842712,48.9565742 60,45.8225675 60,41.9565742 L60,36.5712743" id="Path-Copy-2" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M30,30 C30,31.3937207 30,33.3792454 30,35.9565742 C30,39.8225675 36.7157288,42.9565742 45,42.9565742 C53.2842712,42.9565742 60,39.8225675 60,35.9565742 L60,30.5712743" id="Path-Copy" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M30,43 C30,44.3937207 30,46.3792454 30,48.9565742 C30,52.8225675 36.7157288,55.9565742 45,55.9565742 C53.2842712,55.9565742 60,52.8225675 60,48.9565742 L60,43.5712743" id="Path-Copy-3" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group-7" transform="translate(72.000000, 33.000000)" stroke="#17924C" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.099">
+                <path d="M3.1225416,5 C1.397882,5 0,4.32699358 0,3.49931256 C0,2.67094409 1.397882,2 3.1225416,2 C4.41754917,2 5.52496218,2.37740605 6,2.91704858" id="Stroke-1"></path>
+                <path d="M2.87846697,5 C4.602118,5 6,5.67056396 6,6.49724897 C6,7.32806052 4.602118,8 2.87846697,8 C1.58446798,8 0.475037821,7.62173315 0,7.08115543" id="Stroke-3"></path>
+                <path d="M3,0 L3,2" id="Stroke-5"></path>
+                <path d="M3,8 L3,10" id="Stroke-7"></path>
+            </g>
+            <path d="M60,26 L93,26 C94.1045695,26 95,26.8954305 95,28 L95,49 C95,50.1045695 94.1045695,51 93,51 L60,51" id="Path" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60,29 L90,29 C91.1045695,29 92,29.8954305 92,31 C92,36.0425347 92,36.1710403 92,38.6923077" id="Path" stroke="#17924C" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M60,47.5 L90,47.5" id="Path-Copy-5" stroke="#17924C" stroke-linecap="round" stroke-linejoin="round" transform="translate(75.000000, 47.500000) rotate(-180.000000) translate(-75.000000, -47.500000) "></path>
+            <path d="M60.2662801,19.2846537 L88.0693777,19.2846537 C89.1739472,19.2846537 90.0693777,20.1800842 90.0693777,21.2846537 L89.5959175,26.6963286" id="Path" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round" transform="translate(75.167829, 22.990491) rotate(-5.000000) translate(-75.167829, -22.990491) "></path>
+            <path d="M53.1893957,15.0864347 L81.0925013,15.2497318 C82.1970708,15.2497318 83.0925013,16.1451623 83.0925013,17.2497318 L83.5112879,19.928476" id="Path-Copy-4" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round" transform="translate(68.350342, 17.507455) rotate(-8.000000) translate(-68.350342, -17.507455) "></path>
+        </g>
+    </g>
+</svg>

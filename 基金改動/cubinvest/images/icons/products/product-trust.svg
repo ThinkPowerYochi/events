@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>39C102E0-F134-4CBC-944A-87D92905D9CC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 0.563829787 0 0.563829787 3.67365661 0 3.67365661"></polygon>
+    </defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/50/海外特別股">
+            <g id="Group-Copy" transform="translate(3.000000, 3.000000)">
+                <g id="Group-9">
+                    <g id="Group-8">
+                        <path d="M44,26.1850569 C44,22.3524961 40.7340518,19.2448702 36.7062897,19.2448702 C32.6785277,19.2448702 29.4132362,22.3524961 29.4132362,26.1850569 L29.3324577,26.1850569 C29.3324577,22.3524961 26.0665094,19.2448702 22.0387474,19.2448702 C18.0109854,19.2448702 14.7456939,22.3524961 14.7456939,26.1850569 L14.5867638,26.1850569 C14.5867638,22.3524961 11.3208155,19.2448702 7.29305352,19.2448702 C3.2652915,19.2448702 0,22.3524961 0,26.1850569 L0.00722409624,26.054462 C0.00722409624,13.7312331 9.85366727,3.74072241 22,3.74072241 C34.1463327,3.74072241 43.9927759,13.7312331 43.9927759,26.054462 L44,26.1850569 Z" id="Stroke-1" stroke="#00994E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M21.710233,19.8837209 L21.710233,37.4830472 L21.710233,38.6576828 C21.710233,41.7174716 19.1951291,44.1984166 16.0932118,44.1984166 C12.9912944,44.1984166 10.4761905,41.7174716 10.4761905,38.6576828" id="Stroke-3" stroke="#00994E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-7" transform="translate(21.531915, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Clip-6" stroke="#00994E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path d="M25.6824502,26.1190206 C23.7460479,17.840372 25.9304451,11.4673651 32.2356416,7" id="Path-15-Copy" stroke="#00994E" stroke-width="2" transform="translate(28.617821, 16.559510) scale(-1, 1) translate(-28.617821, -16.559510) "></path>
+            <path d="M18.6824502,26.1190206 C16.7460479,17.840372 18.9304451,11.4673651 25.2356416,7" id="Path-15" stroke="#00994E" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

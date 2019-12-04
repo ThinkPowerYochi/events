@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>F7DFFB86-84F3-4682-87B2-F4462347C640</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/50/LE" stroke="#00994E" stroke-width="2">
+            <g id="Group" transform="translate(5.000000, 7.000000)">
+                <g id="Group-65" transform="translate(18.000000, 11.500000)">
+                    <ellipse id="Oval" cx="11.5" cy="6.5" rx="6.70833333" ry="6.5"></ellipse>
+                    <path d="M23,26 C23,19.8459699 17.8512746,14.8571429 11.5,14.8571429 C5.14872538,14.8571429 0,19.8459699 0,26 L23,26 Z" id="Shape"></path>
+                </g>
+                <path d="M9.5388335,34.5 L1.87878788,34.5 C0.841161985,34.5 0,33.6813207 0,32.6714286 L0,4.32857143 C0,3.31867931 0.841161985,2.5 1.87878788,2.5 C5.0978385,2.5 7.51212647,2.5 9.12165179,2.5 M23.8526786,2.5 C24.9591016,2.5 26.7152794,2.5 29.1212121,2.5 C30.158838,2.5 31,3.31867931 31,4.32857143 L31,7.80175781" id="Shape"></path>
+                <rect id="Rectangle" x="9.5" y="0" width="14" height="4"></rect>
+            </g>
+            <polyline id="Path-48" points="5 33.7053571 11.8116629 26.6275112 15 29.6361607 25 19"></polyline>
+        </g>
+    </g>
+</svg>

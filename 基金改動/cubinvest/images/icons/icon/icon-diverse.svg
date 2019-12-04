@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>A78CB550-F2BF-4141-98C4-13402F310184</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/120/市場參與">
+            <path d="M20,10 L43.78125,10 C45.4381042,10 46.78125,11.3431458 46.78125,13 L46.78125,28.4702035 C46.78125,30.1270577 45.4381042,31.4702035 43.78125,31.4702035 L42.9497006,31.4702035 L42.9497006,35.7988735 L33.1824625,31.4702035 L20,31.4702035 C18.3431458,31.4702035 17,30.1270577 17,28.4702035 L17,13 C17,11.3431458 18.3431458,10 20,10 Z" id="Rectangle-Copy" stroke="#00994E" stroke-width="2" fill="#C0E3D2"></path>
+            <path d="M85,4 L100.78125,4 C102.438104,4 103.78125,5.34314575 103.78125,7 L103.78125,22.6679056 C103.78125,24.215572 102.526618,25.4702035 100.978952,25.4702035 L100.978952,25.4702035 L103.78125,37 L93.8354421,25.4702035 L85,25.4702035 C83.3431458,25.4702035 82,24.1270577 82,22.4702035 L82,7 C82,5.34314575 83.3431458,4 85,4 Z" id="Rectangle-Copy-2" stroke="#00994E" stroke-width="2" fill="#C0E3D2" transform="translate(92.890625, 20.500000) scale(-1, 1) translate(-92.890625, -20.500000) "></path>
+            <g id="Group-Copy-2" transform="translate(24.000000, 14.000000)" stroke="#17924C" stroke-width="2.099">
+                <ellipse id="Oval" cx="8" cy="4.2" rx="4.52173913" ry="4.2"></ellipse>
+                <path d="M16,14 C16,11.2475335 14.1717629,8.86740236 11.5163935,7.73253436 M4.5607784,7.7 C1.86372405,8.8214597 0,11.2209485 0,14" id="Shape"></path>
+            </g>
+            <g id="Group-Copy-3" transform="translate(86.000000, 9.000000)" stroke="#17924C" stroke-width="2.099">
+                <circle id="Oval" cx="7" cy="4" r="4"></circle>
+                <path d="M14,13 C14,10.8155028 12.4002925,8.92650981 10.0768443,8.02582092 M3.9906811,8 C1.63075854,8.89004738 0,10.7944036 0,13" id="Shape"></path>
+            </g>
+            <path d="M39,23 L76,23 C77.6568542,23 79,24.3431458 79,26 L79,51 C79,52.6568542 77.6568542,54 76,54 L73.4677734,54 L73.4677734,60.25 L59.3652344,54 L39,54 C37.3431458,54 36,52.6568542 36,51 L36,26 C36,24.3431458 37.3431458,23 39,23 Z" id="Rectangle" stroke="#00994E" stroke-width="2" fill="#FFFFFF"></path>
+            <g id="Group-Copy" transform="translate(46.000000, 28.000000)" stroke="#17924C" stroke-width="2.099">
+                <ellipse id="Oval" cx="11.5" cy="6" rx="6.5" ry="6"></ellipse>
+                <path d="M23,20 C23,16.067905 20.3719091,12.6677177 16.5548157,11.0464777 M6.55611895,11 C2.67910332,12.6020853 0,16.0299265 0,20" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

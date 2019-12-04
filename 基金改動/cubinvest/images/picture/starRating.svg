@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390px" height="125px" viewBox="0 0 390 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>FC9210CC-1AAC-43F6-9B75-F6839D7C1D48</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0,2.9963567 C0,1.34151459 1.34195145,0 3.00774381,0 L926.992256,0 C928.653387,0 930,1.34574932 930,2.9963567 L930,1619.00364 C930,1620.65849 928.658049,1622 926.992256,1622 L3.00774381,1622 C1.34661277,1622 0,1620.65425 0,1619.00364 L0,2.9963567 Z" id="path-1"></path>
+        <filter x="-0.7%" y="-0.3%" width="101.4%" height="100.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7CDB6A" offset="0%"></stop>
+            <stop stop-color="#0F9F3D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首頁" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="晨星評等" transform="translate(-505.000000, -872.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1400" height="2235"></rect>
+            <rect id="bg" fill="#F9FBF7" x="0" y="189" width="1400" height="1682"></rect>
+            <g id="Group" transform="translate(235.000000, 219.000000)">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Group" transform="translate(505.000000, 872.000000)">
+                <g id="評等" transform="translate(0.000000, 113.000000)" fill="#FF6000">
+                    <g id="ICON/16/star" transform="translate(28.636364, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                </g>
+                <g id="評等" transform="translate(88.000000, 113.000000)" fill="#FF6000">
+                    <g id="ICON/16/star" transform="translate(14.318182, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(28.636364, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                </g>
+                <g id="評等" transform="translate(160.000000, 113.000000)" fill="#FF6000">
+                    <g id="ICON/16/star" transform="translate(14.318182, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(28.636364, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(42.954545, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                </g>
+                <g id="評等" transform="translate(247.000000, 113.000000)" fill="#FF6000">
+                    <g id="ICON/16/star">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(14.318182, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(28.636364, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(42.954545, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                </g>
+                <g id="評等" transform="translate(320.000000, 113.000000)" fill="#FF6000">
+                    <g id="ICON/16/star">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(14.318182, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(28.636364, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(42.954545, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                    <g id="ICON/16/star" transform="translate(57.272727, 0.000000)">
+                        <polygon id="Page-1" points="6.4998906 0.705882353 5.14617521 4.71380016 0.764705882 4.71380016 4.30926534 7.2384264 2.95533115 11.2941176 6.4998906 8.81074072 10.0446689 11.2749662 8.69051586 7.24179369 12.2352941 4.71380016 7.85360599 4.71380016"></polygon>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-3)" x="160" y="0" width="70" height="98"></rect>
+                <rect id="Rectangle-Copy-3" fill="url(#linearGradient-3)" x="80" y="21" width="70" height="77"></rect>
+                <rect id="Rectangle-Copy-5" fill="url(#linearGradient-3)" x="240" y="21" width="70" height="77"></rect>
+                <rect id="Rectangle-Copy-4" fill="url(#linearGradient-3)" x="0" y="49" width="70" height="49"></rect>
+                <rect id="Rectangle-Copy-6" fill="url(#linearGradient-3)" x="320" y="49" width="70" height="49"></rect>
+                <text id="35%" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="0.35" fill="#FFFFFF">
+                    <tspan x="178" y="82">35%</tspan>
+                </text>
+                <text id="22.5%" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="0.35" fill="#FFFFFF">
+                    <tspan x="91" y="82">22.5%</tspan>
+                </text>
+                <text id="22.5%-copy" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="0.35" fill="#FFFFFF">
+                    <tspan x="251" y="82">22.5%</tspan>
+                </text>
+                <text id="10%" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="0.35" fill="#FFFFFF">
+                    <tspan x="18" y="82">10%</tspan>
+                </text>
+                <text id="10%-copy" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="16" font-weight="bold" letter-spacing="0.35" fill="#FFFFFF">
+                    <tspan x="338" y="82">10%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

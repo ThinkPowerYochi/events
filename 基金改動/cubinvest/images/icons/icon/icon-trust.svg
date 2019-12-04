@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>FB8B916B-5B28-46CC-99A4-1F46C4B7F8FB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 0.372340426 0 0.372340426 2.92531915 0 2.92531915"></polygon>
+    </defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/50/保險信託">
+            <g id="Group" transform="translate(8.000000, 8.000000)">
+                <g id="Group-9">
+                    <g id="Group-8">
+                        <path d="M35,20.8510638 C35,17.7992098 32.4020866,15.3246189 29.198185,15.3246189 C25.9942834,15.3246189 23.3968924,17.7992098 23.3968924,20.8510638 L23.3326368,20.8510638 C23.3326368,17.7992098 20.7347234,15.3246189 17.5308218,15.3246189 C14.3269202,15.3246189 11.7295292,17.7992098 11.7295292,20.8510638 L11.6031076,20.8510638 C11.6031076,17.7992098 9.00519418,15.3246189 5.80129258,15.3246189 C2.59739097,15.3246189 0,17.7992098 0,20.8510638 L0.00574644019,20.7470716 C0.00574644019,10.93413 7.83814442,2.9787234 17.5,2.9787234 C27.1618556,2.9787234 34.9942536,10.93413 34.9942536,20.7470716 L35,20.8510638 Z" id="Stroke-1" stroke="#00994E" stroke-width="1.774" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M17.1276596,15.6382979 L17.1276596,29.6525762 L17.1276596,30.5879342 C17.1276596,33.0244326 15.1270088,35 12.6595745,35 C10.1921402,35 8.19148936,33.0244326 8.19148936,30.5879342" id="Stroke-3" stroke="#00994E" stroke-width="1.774" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-7" transform="translate(17.127660, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Clip-6" stroke="#00994E" stroke-width="1.774" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

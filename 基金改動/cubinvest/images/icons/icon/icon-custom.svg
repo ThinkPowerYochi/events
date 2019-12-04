@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>2960C9ED-C6FF-4024-A5F8-57EB7B75727B</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/120/fit">
+            <g id="Group" transform="translate(24.000000, 9.000000)">
+                <circle id="Oval" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round" cx="23.5" cy="13.5" r="13.5"></circle>
+                <path d="M47,43 C47,33.9246954 41.6295534,26.0770377 33.8294059,22.3352037 M13.3972866,22.227933 C5.47468939,25.9255577 0,33.8370408 0,43" id="Shape" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle" stroke="#00994E" stroke-width="2" fill="#C0E3D2" x="42" y="12" width="30" height="35" rx="2"></rect>
+                <rect id="Rectangle" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round" x="50" y="12" width="15" height="5"></rect>
+                <path d="M47,24 L66.8398437,24" id="Line-18" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M47,30 L66.8398437,30" id="Line-18-Copy" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M47,37 L56.9199219,37" id="Line-18-Copy-2" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

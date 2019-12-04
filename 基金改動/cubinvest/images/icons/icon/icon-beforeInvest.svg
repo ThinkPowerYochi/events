@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>92B9C952-2ABD-44DD-AB99-E8C82F0F23F4</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/50/投資必讀" stroke="#00994E" stroke-width="2">
+            <g id="Group-10" transform="translate(10.000000, 5.000000)">
+                <g id="Group-5" transform="translate(0.000000, 2.000000)">
+                    <polyline id="Path" points="28.480957 0 30.9072667 0 30.9072667 25.3331707 22.3342 34.1215854 5 34.1215854 5 34.1215854 5 0 22.2563477 0"></polyline>
+                    <polyline id="Path" points="17.3342 37.1215854 0 37.1215854 0 3 4.24169922 3"></polyline>
+                    <polyline id="Stroke-3" points="30.9073533 25.3580122 22.1600867 25.3580122 22.1600867 34.1464268"></polyline>
+                </g>
+                <path d="M10,12.5 L26,12.5" id="Stroke-6"></path>
+                <path d="M10,17.5 L26,17.5" id="Stroke-7"></path>
+                <path d="M10,23.5 L18,23.5" id="Stroke-8"></path>
+                <polygon id="Fill-9" points="25.5556416 0.5 25.4453261 0.5 23 0.5 23 7.5 25.4995162 5.41126103 28 7.5 28 0.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

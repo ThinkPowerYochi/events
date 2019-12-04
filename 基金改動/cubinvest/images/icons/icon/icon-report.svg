@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>89DD4B9C-5864-40D0-8048-F331C156F24E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/50/報告書" stroke="#00994E" stroke-width="2">
+            <g id="Group-12" transform="translate(10.000000, 7.000000)">
+                <g id="Group-8">
+                    <polyline id="Stroke-1" points="3.39237429 9 3.39237429 0.35973913 29.8690314 0.35973913 29.8690314 26.1649565 21.1075457 35.1162609 5.97511714 35.1162609"></polyline>
+                    <polyline id="Stroke-3" points="29.8690314 26.1646087 20.9295171 26.1646087 20.9295171 35.1167826"></polyline>
+                    <polygon id="Stroke-5" points="0 36.3641518 5.70182076 36.3641518 5.70182076 13 0 13"></polygon>
+                    <polyline id="Stroke-7" points="0 13.3981251 2.83298696 8 5.66597391 13.3981251"></polyline>
+                </g>
+                <path d="M10,10.5 L24,10.5" id="Stroke-9"></path>
+                <path d="M10,15.5 L24,15.5" id="Stroke-10"></path>
+                <path d="M10,20.5 L17,20.5" id="Stroke-11"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>30E43886-4D57-4E18-A2B7-89EF591761B7</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/30/stock-market">
+            <g id="Group-7" transform="translate(4.000000, 4.000000)" stroke="#00994E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <polyline id="Stroke-1" points="0.5898 0.5898 0.5898 20.5998 20.2478 20.5998"></polyline>
+                <polyline id="Stroke-3" points="1 13.195 10.727 6.142 13.286 9.154 20.658 3"></polyline>
+                <polyline id="Stroke-5" points="17 3.562 21.144 3 20.645 7.15"></polyline>
+            </g>
+            <rect id="Rectangle" fill="#00994E" x="11" y="18" width="3" height="7"></rect>
+            <rect id="Rectangle-Copy" fill="#00994E" x="16" y="15" width="3" height="10"></rect>
+        </g>
+    </g>
+</svg>

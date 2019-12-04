@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>6C7AADE2-D378-403D-9B3A-C437D8D88A26</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/120/免二代健保">
+            <g id="Group-2" transform="translate(37.000000, 9.000000)" stroke="#00994E" stroke-width="2">
+                <g id="Group" transform="translate(10.000000, 9.000000)" fill="#C0E3D2">
+                    <rect id="Rectangle" x="4.5" y="17.8461538" width="16.5" height="3.71794872"></rect>
+                    <ellipse id="Oval" stroke-linecap="round" stroke-linejoin="round" cx="22.125" cy="4.08974359" rx="4.125" ry="4.08974359"></ellipse>
+                    <path d="M8.25,8.17948718 C8.25,7.93921166 8.23113184,3.62818553 8.19492855,3.39923335 C7.88962474,1.46847007 6.3515132,0 4.5,0 C2.66771986,0 1.14236412,1.43812033 0.814983759,3.33921526 C0.772318671,3.58697107 0.75,7.91816344 0.75,8.17948718 L8.25,8.17948718 Z" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.5,10.4102564 L4.5,10.4102564 C6.98528137,10.4102564 9,12.424975 9,14.9102564 L9,29 L0,29 L-8.8817842e-16,14.9102564 C-1.19253761e-15,12.424975 2.01471863,10.4102564 4.5,10.4102564 Z" id="Rectangle" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M22.5,10.4102564 L22.5,10.4102564 C24.9852814,10.4102564 27,12.424975 27,14.9102564 L27,29 L18,29 L18,14.9102564 C18,12.424975 20.0147186,10.4102564 22.5,10.4102564 Z" id="Rectangle-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <circle id="Oval" cx="23.5" cy="23.5" r="23.5"></circle>
+            </g>
+            <path d="M38,10 L84,53" id="Path-38" stroke="#17924C" stroke-width="2.099" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

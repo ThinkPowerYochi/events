@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>B9DE3113-D22F-431F-8848-97E52D4150BA</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/120/架構簡單">
+            <g id="Group" transform="translate(11.000000, 8.000000)">
+                <rect id="Rectangle" stroke="#00994E" stroke-width="2" fill="#FFFFFF" x="36" y="0" width="26" height="17" rx="2"></rect>
+                <rect id="Rectangle-Copy" stroke="#00994E" stroke-width="2" fill="#C0E3D2" x="36" y="33" width="26" height="17" rx="2"></rect>
+                <path d="M2,33 L24,33 C25.1045695,33 26,33.8954305 26,35 L26,48 C26,49.1045695 25.1045695,50 24,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,35 C-1.3527075e-16,33.8954305 0.8954305,33 2,33 Z" id="Rectangle-Copy-2" stroke="#17924C" stroke-width="1.5" fill="#FFFFFF" stroke-dasharray="4"></path>
+                <path d="M74,33 L96,33 C97.1045695,33 98,33.8954305 98,35 L98,48 C98,49.1045695 97.1045695,50 96,50 L74,50 C72.8954305,50 72,49.1045695 72,48 L72,35 C72,33.8954305 72.8954305,33 74,33 Z" id="Rectangle-Copy-3" stroke="#17924C" stroke-width="1.5" fill="#FFFFFF" stroke-dasharray="4"></path>
+                <path d="M49.5,17 L49.5,33" id="Line-20" stroke="#00994E" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M13,28.5 L13,23 L85,23 L85,29.5" id="Path-16" stroke="#17924C" stroke-width="1.5" stroke-dasharray="4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

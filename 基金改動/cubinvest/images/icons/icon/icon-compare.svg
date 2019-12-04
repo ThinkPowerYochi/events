@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>E43851E5-2706-4EFB-B19C-EB142EE8C61E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/30/comparison" stroke="#00994E">
+            <g id="Group" transform="translate(4.000000, 4.000000)">
+                <path d="M8,6.75 C7.30964406,6.75 6.75,7.30964406 6.75,8 L6.75,21 C6.75,21.6903559 7.30964406,22.25 8,22.25 L21,22.25 C21.6903559,22.25 22.25,21.6903559 22.25,21 L22.25,8 C22.25,7.30964406 21.6903559,6.75 21,6.75 L8,6.75 Z" id="Rectangle-24-Copy" stroke-width="1.5"></path>
+                <path d="M2,0.75 C1.30964406,0.75 0.75,1.30964406 0.75,2 L0.75,11 C0.75,11.6903559 1.30964406,12.25 2,12.25 L11,12.25 C11.6903559,12.25 12.25,11.6903559 12.25,11 L12.25,2 C12.25,1.30964406 11.6903559,0.75 11,0.75 L2,0.75 Z" id="Rectangle-24-Copy-2" stroke-width="1.5"></path>
+                <path d="M7.5,1.5 L0.625,8.375" id="Line-9-Copy" stroke-linecap="round"></path>
+                <path d="M12.5,2.5 L7.87262738,6.75505528 M6.5945823,7.93026915 L1.625,12.5" id="Shape" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

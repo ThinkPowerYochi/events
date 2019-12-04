@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="65px" viewBox="0 0 120 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>615D495A-6A49-456B-AEC0-1398FB3DECC3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/120/天期短">
+            <g id="Group" transform="translate(34.000000, 8.000000)">
+                <g id="Group-2">
+                    <rect id="Rectangle" fill="#00994E" x="8" y="22" width="29" height="4"></rect>
+                    <rect id="Rectangle" fill="#00994E" x="9" y="0" width="5" height="11" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy" fill="#00994E" x="29" y="0" width="5" height="11" rx="1.5"></rect>
+                    <path d="M0,17.5 L43,17.5" id="Line" stroke="#00994E" stroke-linecap="square"></path>
+                    <ellipse id="Oval" stroke="#979797" fill="#FFFFFF" cx="11" cy="25.5" rx="3" ry="3.5"></ellipse>
+                    <rect id="Rectangle" stroke="#00994E" stroke-width="2" fill="#C0E3D2" x="0" y="7" width="43" height="37" rx="3"></rect>
+                    <path d="M-1.59872116e-13,17.6594629 L43,17.6594629" id="Path" stroke="#00994E" stroke-width="2"></path>
+                    <rect id="Rectangle" fill="#00994E" x="8" y="24" width="6" height="7" rx="1"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#00994E" x="8" y="33" width="6" height="7" rx="1"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#00994E" x="18" y="24" width="6" height="7" rx="1"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#00994E" x="18" y="33" width="6" height="7" rx="1"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#00994E" x="29" y="24" width="6" height="7" rx="1"></rect>
+                </g>
+                <path d="M43,44.8149647 L38.5670277,46.5308842 C38.0519818,46.7302487 37.4728378,46.4743384 37.2734733,45.9592925 C37.2222041,45.8268419 37.1997369,45.6849895 37.2075673,45.5431784 L37.46964,40.7969229 L34.4678397,37.111164 C34.1190749,36.6829333 34.1834947,36.0530539 34.6117254,35.7042891 C34.7218504,35.6145998 34.8498173,35.5493974 34.9871074,35.5130225 L39.5820495,34.2955948 L42.1598073,30.3017509 C42.4593046,29.8377253 43.0782623,29.7043488 43.5422879,30.0038461 C43.6616181,30.0808657 43.7631731,30.1824208 43.8401927,30.3017509 L46.4179505,34.2955948 L51.0128926,35.5130225 C51.546757,35.6544696 51.8648741,36.2019177 51.7234269,36.735782 C51.687052,36.8730721 51.6218496,37.001039 51.5321603,37.111164 L48.53036,40.7969229 L48.7924327,45.5431784 C48.8228817,46.0946232 48.4005312,46.5663412 47.8490864,46.5967902 C47.7072753,46.6046206 47.565423,46.5821534 47.4329723,46.5308842 L43,44.8149647 Z" id="Star" stroke="#00994E" stroke-width="2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

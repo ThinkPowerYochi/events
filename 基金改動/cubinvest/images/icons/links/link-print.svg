@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>830C47DD-EA35-4700-8266-7A98B7C9C876</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/16/列印" stroke="#6D6D6D">
+            <g id="Group" transform="translate(1.000000, 1.000000)">
+                <path d="M2.33333333,9.5 L11.6666667,9.5 C12.6814699,9.5 13.5,8.69817463 13.5,7.71428571 L13.5,4.28571429 C13.5,3.30182537 12.6814699,2.5 11.6666667,2.5 L2.33333333,2.5 C1.31853006,2.5 0.5,3.30182537 0.5,4.28571429 L0.5,7.71428571 C0.5,8.69817463 1.31853006,9.5 2.33333333,9.5 Z" id="Path"></path>
+                <rect id="Rectangle" x="2.5" y="0.5" width="9" height="2" rx="1"></rect>
+                <path d="M3.5625,7.5 L11.6868681,7.5" id="Line-11" stroke-linecap="round"></path>
+                <path d="M11,8 L11,12.8 C11,13.4627417 10.4776655,14 9.83333333,14 L5.16666667,14 C4.52233446,14 4,13.4627417 4,12.8 L4,8" id="Path"></path>
+                <path d="M5.625,9.5 L9.04678345,9.5" id="Line-12" stroke-linecap="round"></path>
+                <path d="M10.7216605,4.5 L11.2374268,4.5" id="Line-12-Copy-2" stroke-linecap="round"></path>
+                <path d="M5.625,11.5 L9.04678345,11.5" id="Line-12-Copy" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

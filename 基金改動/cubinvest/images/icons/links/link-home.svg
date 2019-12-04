@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>C980D6FD-D13E-4F31-827E-32BEF537D977</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON/20/home" stroke="#6D6D6D">
+            <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" points="2 9 10 2 10 2 18 9"></polyline>
+            <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" points="16 10 16 18 4 18 4 10 4 10"></polyline>
+            <path d="M8,17.7500703 L8,14.6136683 C8,13.1701792 8.9901516,12 10.2115655,12 C11.4329794,12 12.423131,13.1701792 12.423131,14.6136683 L12.423131,17.7500703" id="Path"></path>
+        </g>
+    </g>
+</svg>

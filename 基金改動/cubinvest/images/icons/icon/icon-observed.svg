@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>48AD488B-68B7-4ED7-B1FA-C42081F40EE4</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="ICON/50/觀察清單" stroke="#00994E" stroke-width="2">
+            <g id="Group" transform="translate(7.000000, 10.000000)">
+                <polyline id="Path" points="22 26.6348114 22 29 -1.79412041e-13 29 -1.79412041e-13 0 22 0 22 14.5"></polyline>
+                <rect id="Rectangle" x="5" y="0" width="13" height="4"></rect>
+                <g id="like" transform="translate(18.000000, 15.000000)" fill-rule="nonzero">
+                    <path d="M17.5853941,4.3161106 C17.3282738,1.81494606 15.325174,0.000299397239 12.8183352,0.000299397239 C11.1482386,0.000299397239 9.61906688,0.794600272 8.75861139,2.06763733 C7.90594743,0.778133424 6.43944672,0 4.79611224,0 C2.28961219,0 0.286173705,1.81464666 0.0293921066,4.3158112 C0.00906638646,4.42628878 -0.0742690662,5.00771822 0.179124912,5.95590927 C0.544310351,7.32355586 1.38782774,8.56755139 2.61787257,9.5525683 L8.75454624,14.4743595 L14.9965749,9.5528677 C16.2266197,8.56755139 17.0701371,7.32385526 17.4353226,5.95590927 C17.6887165,5.00801761 17.6053811,4.42658818 17.5853941,4.3161106 Z" id="Path"></path>
+                </g>
+                <path d="M4.5,9.5 L18,9.5" id="Line-6"></path>
+                <path d="M4.5,13.5 L18,13.5" id="Line-6-Copy"></path>
+                <path d="M4.5,18 L11.5,18" id="Line-6-Copy-2"></path>
+                <path d="M23.2474365,17.5894775 C21.541097,18.2351481 20.8420207,19.3597616 21.1502075,20.9633179" id="Path-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
