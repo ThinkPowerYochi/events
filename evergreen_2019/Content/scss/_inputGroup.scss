@@ -92,7 +92,7 @@ textarea.form-control:focus {
 // 
 .inputGroup__control {
   min-height: 40px;
-  margin-left: 270px;
+  // margin-left: 270px;
   box-sizing: border-box;
   position: relative;
 }
@@ -970,7 +970,6 @@ input[type=checkbox].checkbox:disabled+label:before {
 
     display: block;
     float: left;
-    width: 100%;
     border: 1px solid #f00;
   }
   
@@ -982,7 +981,7 @@ input[type=checkbox].checkbox:disabled+label:before {
         position: absolute;
         bottom: -25px;
         left:0px;
-        padding: 3px 20px;
+      
         @include rwd-max-width(640px){
           padding:3px 0px;
         }
@@ -991,11 +990,7 @@ input[type=checkbox].checkbox:disabled+label:before {
       label.error {
            padding: 3px 0px;
       }
-      .evaTabs{
-          label.error {
-            padding: 3px 20px;
-          }
-      }
+
   }
 
 

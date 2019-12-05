@@ -4429,7 +4429,6 @@ textarea.form-control:focus {
 
 .inputGroup__control {
   min-height: 40px;
-  margin-left: 270px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
@@ -5309,7 +5308,6 @@ input[type=text].error,
 input[type=number].error {
   display: block;
   float: left;
-  width: 100%;
   border: 1px solid #f00;
 }
 
@@ -5321,7 +5319,6 @@ label.error {
   position: absolute;
   bottom: -25px;
   left: 0px;
-  padding: 3px 20px;
 }
 
 @media all and (max-width: 640px) {
@@ -5332,10 +5329,6 @@ label.error {
 
 .evaGreenContainer label.error {
   padding: 3px 0px;
-}
-
-.evaGreenContainer .evaTabs label.error {
-  padding: 3px 20px;
 }
 
 select.form-control.error + .transformSelect span {
@@ -5532,6 +5525,7 @@ ul.CUBList--sequence_disc {
   background-color: #f6f6f6;
   cursor: pointer;
   margin-bottom: 45px;
+  margin-top: 30px;
 }
 
 .collapse--note.loan_table .collapse__title {
