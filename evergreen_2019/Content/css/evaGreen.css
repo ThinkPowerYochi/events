@@ -1864,7 +1864,6 @@ a.link_gf20 {
   transition: #ff6000 350ms ease-in-out;
   position: relative;
   background: #ff6000;
-  opacity: 0.8;
 }
 
 @media all and (max-width: 480px) {
@@ -1878,8 +1877,7 @@ a.link_gf20 {
 }
 
 .actionArea a:hover {
-  background: #ff6000;
-  opacity: 1;
+  background: #f05a00;
 }
 
 .footer_top {
@@ -5593,15 +5591,6 @@ ul.CUBList--sequence_disc {
   margin-left: 15px;
   text-align: left;
   text-align: justify;
-}
-
-.modal.bottom.fade .modal-dialog {
-  bottom: -100px;
-  -webkit-transition: opacity 0.3s linear, bottom 0.3s ease-out;
-  -moz-transition: opacity 0.3s linear, bottom 0.3s ease-out;
-  -o-transition: opacity 0.3s linear, bottom 0.3s ease-out;
-  -webkit-transition: opacity 0.3s linear, bottom 0.3s ease-out;
-  transition: opacity 0.3s linear, bottom 0.3s ease-out;
 }
 
 .modal.bottom.fade.show .modal-dialog {

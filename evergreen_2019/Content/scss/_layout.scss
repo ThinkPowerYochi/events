@@ -265,7 +265,7 @@
         transition: #ff6000 350ms ease-in-out;
         position: relative;
         background: #ff6000;
-        opacity: 0.8;
+       
         @include rwd-max-width(480px){
           width: 200px;
         }
@@ -276,8 +276,8 @@
       }
 
       &:hover {
-        background: #ff6000;
-        opacity: 1;
+        background: darken( #ff6000,3%);
+        
       }
     }
   }
