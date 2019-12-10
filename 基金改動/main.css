@@ -4355,7 +4355,8 @@ button.cubinvest-o-btn {
     box-sizing: border-box;
     width: 100%;
     overflow: auto;
-    height:300px;
+    height:auto;
+    max-height:300px;
     list-style-type: none;
     padding-left: 0;
     border: 1px solid #00994e;
