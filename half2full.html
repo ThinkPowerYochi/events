@@ -7,22 +7,41 @@
 	<title>Document</title>
 </head>
 <body>
+
+	<style>
+		.textOut{
+			position: relative;
+		}
+		.textNum{
+			position: absolute;
+			right:0px;
+			top:0px;
+		}
+		.MyMemoInput{
+			width:100%;
+		}
+
+	</style>
 	<h3>(需求)上方input 字會顯示前六個字於下方並轉成全形</h3>
-	<input type="text" class="input1">
+	<div class="textOut"><input type="text" class="MyMemoInput" maxlength="15"><span class="textNum">0/15</span></div>
 	<p>存摺僅會列印以下文字</p>
-	<input type="text" class="input2" maxlength="6" disabled>
+	
+	<div class="MyMemoDisplay"></div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
-		$(".input1").on('change', function() {
+		$(".MyMemoInput").on('change', function() {
 			inputTrans()
 			}); 
-		 $(".input1").on('keyup', function () {
+		 $(".MyMemoInput").on('keyup', function () {
 				inputTrans()
 			}); 
+			
 		function inputTrans(){
-			var new2 = $('.input1').val().half2full()
-			$(".input1").val(new2)
-			$(".input2").val(new2.slice(0, 6))
+			var new2 = $('.MyMemoInput').val().half2full()
+			$(".MyMemoInput").val(new2)
+			$(".MyMemoDisplay").text(new2.slice(0, 6))
+	
+			$('.textNum').text(new2.length+'/15')
 		};
 
 		String.prototype.half2full=function () { var temp='' ;
