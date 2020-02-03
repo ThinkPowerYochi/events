@@ -492,7 +492,13 @@
 <script>
 	$(function () {
 		$('[data-bxslider="true"]').bxSlider({
-			controls: false
+			controls: false,
+			touchEnabled: true,
+			swipeThreshold: 10,
+			preventDefaultSwipeX:false,
+			preventDefaultSwipeY: true,
+
+
 		});
 	});
 </script>
