@@ -1,0 +1,297 @@
+  
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   a.link {
+       color:#00994e;
+    }
+  .orange_span{
+    color:#ff7e25; 
+  }
+  /*---------- progress bar ----------*/
+   .mt_10{
+     margin-top:10px; 
+   }
+  .progressBar__track {
+    background: #f2f2f2;
+    height: 6px;
+  }
+  .progressBar__steps {
+    margin: 0;
+    padding: 0;
+  }
+  .progressBar__step {
+    float: left;
+    list-style: none;
+    position: relative;
+    height:40px;
+  }
+  .progressBar__step.active:before, .progressBar__step.prev:before {
+    content: '';
+    width: 100%;
+    height: 6px;
+    background: #00994e;
+    z-index: 0;
+    position: absolute;
+    top: -6px;
+  }
+  .progressBar__step.active {
+    left: 6px;
+  }
+  .progressBar__number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    margin-top: -23px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: -20px;
+    color: #f2f2f2;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 0;
+    font-family: Arial;
+  }
+
+  .active .progressBar__number {
+    width: 42px;
+    height: 42px;
+    line-height: 34px;
+    top: -10px;
+    right: -14px;
+    font-size: 18px;
+}
+  .active .progressBar__number {
+    color: #00994e;
+    border: 4px solid #00994e;
+    width: 42px;
+    height: 42px;
+    line-height: 34px;
+    top: -5px;
+    font-size: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .prev .progressBar__number {
+    background: #00994e;
+    color: #00994e;
+  }
+  .progressBar__desc {
+    display: none;
+  }
+  .tooLong .active .progressBar__desc {
+    margin-right: -34px;
+  }
+  .prev .progressBar__desc {
+    color: #00994e;
+  }
+  .tooLong .progressBar__desc {
+    width: 80px;
+    margin-right: -40px;
+  }
+  .progressBar__mobileTitle {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #00994e;
+  }
+  .progressBar {
+    padding: 0 35px;
+    margin-top: 40px;
+    margin-bottom:10px;
+  }
+  .progressBar__number {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: -14px;
+    right: -10px;
+  }
+  .active .progressBar__number {
+    width: 42px;
+    height: 42px;
+    line-height: 34px;
+    top: -10px;
+    right: -14px;
+    font-size: 18px;
+  }
+  .progressBar__desc {
+    display: none;
+  }
+  .progressBar__step {
+    height: 40px;
+  }
+  .progressBar__mobileTitle {
+    display: block;
+  }
+  .input_img{
+     width:100px;
+     display: inline-block;
+     vertical-align: middle; 
+  }
+  .input_img img{
+      width:100%;
+  }
+  .refresh{
+     width:30px;
+     height:30px;
+     background:url(../images/loan/refresh@3x.png);
+     background-size:30px 30px;
+     display:inline-block;
+     vertical-align:middle;
+     cursor: pointer;      
+  }
+  .btn--submit{
+    background:#ff7313; 
+  }
+  .agreement_notice {
+        font-size: 14px;
+        color: #6d6d6d;
+        margin-bottom:20px; 
+  }
+  .agreement_notice p{
+        padding:0;
+        margin:0; 
+   }
+   .agreement_notice span{
+     color:#ff7313; 
+   }
+   .transformSelect.trans-element.disabled > li > span {
+    background:#ebebe4;
+   }
+
+.sms > div {
+    display: inline-block;
+}
+.sms__precode {
+  width:50px;
+  text-align:center; 
+}
+.sms__clock {
+  margin-left:50px;
+}
+.sms__input {
+  display: inline-block;
+  width:80%;
+}
+.icon {
+  display: inline-block;
+}
+.iSprite30__clock{
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/loan/time_count.png);
+  background-size:30px 30px; 
+}
+.btn--rev {
+  color:#00994e; 
+  margin-top: 10px;
+  max-width: 335px;
+  padding:5px 20px; 
+  opacity: 0.7;
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid #00994e;
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.btn--uneven{
+  padding:10px 0; 
+}
+.outcome .table_tit{
+  color:#00994e;
+  font-size:24px;
+  padding-left:30px;
+  text-align:center;
+  margin:20px 0;         
+}
+.outcome .table_tit:before{
+  display: inline-block;
+  width:30px;
+  height:30px;
+  background:url(../images/loan/result@3x.png);
+  background-size:30px 30px;
+  background-repeat:no-repeat;
+  content:" ";
+  vertical-align: sub;
+}
+.people__box{
+  width:100%;
+  min-height:70px;
+  margin:30px 0;
+  color:#0e8338;
+  font-size:15px;    
+}
+.people__box .people__box_img{
+  position: absolute;
+  left:10px;
+  width:70px;
+  height:70px;
+  background:url(../images/loan/people.png);
+  background-size:70px 70px;
+  display:inline-block;  
+}
+.people__box .people__box_img2{
+  position: absolute;
+  left:10px;
+  width:70px;
+  height:70px;
+  background:url(../images/loan/people2.png);
+  background-size:70px 70px;
+  display:inline-block;  
+}
+.people__box .people__box_text{
+  display:inline-block;
+  width:100%;
+  padding-left:80px;
+  padding-top:10px;  
+}
+.btn--orange_2 {
+  color:#fff;
+  background:#ff7313; 
+  border: 1px solid #ff7313;
+}
+.completeIcon {
+  text-align: center;
+}
+.completeIcon span {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #00994e;
+  text-align:center; 
+}
+.completeIcon span:before {
+  content: '';
+  display:block; 
+  margin: 0 auto;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  background-image: url(../images/loan/completeIcon.png);
+  background-size: 80px 80px;
+}
+.formError_input input{
+  border:1px solid #f61732; 
+}
+.formError_input .transformSelect{
+  border:1px solid #f61732; 
+}
+.formError_input .transformSelect > li.open > span{
+  border:none; 
+}
+.formError_input .formErrorContent{
+  color:#f61732;
+  font-size:14px;  
+} 
+.page__main{
+  min-height:480px;
+}

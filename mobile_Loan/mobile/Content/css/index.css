@@ -1,0 +1,102 @@
+.idxContent {
+  padding: 0 15px 20px;
+}
+
+.kvBox {
+  position: relative;
+}
+.kvBox__text {
+  position: absolute;
+  z-index: 50;
+}
+.kvBox__text--left {
+  width: 170px;
+  top: 115px;
+  left: 25px;
+}
+.kvBox__text--right {
+  width: 170px;
+  top: 115px;
+  right: 25px;
+}
+.kvBox__text--bottom {
+  width: 100%;
+  bottom: 30px;
+  right: 0;
+  display: inline-block;
+  padding: 10px 120px 10px 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.kvBox__text--bottom .text {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: bottom;
+  margin-left: -6px;
+}
+.kvBox__text--bottom .action {
+  width: 115px;
+  margin-right: -115px;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+.kvBox__text .title {
+  font-size: 21px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.kvBox__text .action {
+  padding: 10px 15px;
+}
+
+.serviceBox {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.functionList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.functionList > li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.functionList--inline > li > a {
+  display: block;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: #4a4a4a;
+  background-color: #ffffff;
+}
+.functionList.borderBottom > li {
+  border-bottom: solid 1px #cecece;
+}
+.functionList.borderBottom > li:last-of-type {
+  border-bottom: none;
+}
+.functionList--square {
+  margin: 0 -7.5px;
+}
+.functionList--square.functionList--3grid > li {
+  float: left;
+  width: 33.3333333333%;
+  padding: 0 7.5px;
+  margin-bottom: 15px;
+}
+
+.functionMore {
+  border-top: solid 1px #cecece;
+  padding: 15px 10px;
+}
