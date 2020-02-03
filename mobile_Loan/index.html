@@ -488,17 +488,17 @@
 	<!-- Common js /end -->
 	<!-- Page js /begin -->
 	
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="./Content/js/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script>
 	$(function () {
 		$('[data-bxslider="true"]').bxSlider({
 			controls: false,
 			touchEnabled: true,
-			swipeThreshold: 0,
-			easing:'ease-in-out',
+			swipeThreshold: 1,
+			easing:'linear',
 			oneToOneTouch:true,
 			preventDefaultSwipeX:true,
-			preventDefaultSwipeY: false,
+			preventDefaultSwipeY: true,
 			infiniteLoop:true
 
 
