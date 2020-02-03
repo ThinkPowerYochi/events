@@ -495,7 +495,7 @@
 			controls: false,
 			touchEnabled: true,
 			swipeThreshold: 1,
-			easing:'linear',
+			easing:'ease-in-out',
 			oneToOneTouch:true,
 			preventDefaultSwipeX:true,
 			preventDefaultSwipeY: false,
@@ -506,7 +506,12 @@
 	});
 </script>
 
-	
+<style>
+.bx-wrapper {
+*zoom: 1;
+-ms-touch-action: pan-y;
+touch-action: pan-y;
+}</style>
 	<!-- Page js /end -->
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<!--<script>
