@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+
+	<style>
+		.textOut{
+			position: relative;
+		}
+		.textNum{
+			position: absolute;
+			right:0px;
+			top:0px;
+		}
+		.MyMemoInput{
+			width:100%;
+		}
+
+	</style>
+	<h3>(需求)上方input 字會顯示前六個字於下方並轉成全形</h3>
+	<div class="textOut"><input type="text" class="MyMemoInput" maxlength="15"><span class="textNum">0/15</span></div>
+	<p>存摺僅會列印以下文字</p>
+	
+	<div class="MyMemoDisplay"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(".MyMemoInput").on('change', function() {
+			inputTrans()
+			}); 
+		 $(".MyMemoInput").on('keyup', function () {
+				inputTrans()
+			}); 
+			
+		function inputTrans(){
+			var new2 = $('.MyMemoInput').val().half2full()
+			$(".MyMemoInput").val(new2)
+			$(".MyMemoDisplay").text(new2.slice(0, 6))
+	
+			$('.textNum').text(new2.length+'/15')
+		};
+
+		String.prototype.half2full=function () { var temp='' ;
+		 for(var i=0; i < this.toString().length; i++) { var charCode=this.toString().charCodeAt(i);
+		  if (charCode <=126 &&charCode>= 33) {
+		charCode += 65248;
+		} else if (charCode == 32) { // 半形空白轉全形
+		charCode = 12288;
+		}
+		temp = temp + String.fromCharCode(charCode);
+		}
+		return temp;
+		};
+
+
+	</script>
+</body>
+</html>
