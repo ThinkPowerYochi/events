@@ -99,12 +99,12 @@
   }
 }
 
-.airplaneMove {
+/* .airplaneMove {
   -webkit-animation-name: airplaneMove;
   animation-name: airplaneMove;
   -webkit-animation: 20s airplaneMove infinite linear;
   animation: 20s airplaneMove infinite linear;
-}
+} */
 
 .lognin__area .tit, .lognin__area .login__tit, .lognin__area .tit_Group p {
   font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
