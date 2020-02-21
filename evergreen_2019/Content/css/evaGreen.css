@@ -87,8 +87,8 @@
   50%,
   70%,
   90% {
-    -webkit-transform: translate3d(5px, 30px, 10px);
-    transform: translate3d(5px, 30px, 10px);
+    -webkit-transform: translate3d(5px, 0px, 0px);
+    transform: translate3d(5px, 0px, 0px);
   }
   20%,
   40%,
@@ -415,7 +415,8 @@ video {
 input {
   vertical-align: baseline;
   font-size: 16px;
-  font-family: 'Microsoft JhengHei', "Font Awesome 5 Free";
+  font-family: 'Microsoft JhengHei',
+ "Font Awesome 5 Free";
 }
 
 /* HTML5 display-role reset for older browsers */
